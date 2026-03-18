@@ -1,0 +1,69 @@
+{
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "confusion_matrix": [
+    [
+      5,
+      0,
+      0
+    ],
+    [
+      0,
+      33,
+      0
+    ],
+    [
+      0,
+      0,
+      102
+    ]
+  ],
+  "feature_importance": [
+    {
+      "feature": "iucn_status_numeric",
+      "importance": 19.07179069519043
+    },
+    {
+      "feature": "conservation_urgency",
+      "importance": 6.680962562561035
+    },
+    {
+      "feature": "population_rolling_avg",
+      "importance": 4.92825984954834
+    },
+    {
+      "feature": "population_relative_to_baseline",
+      "importance": 0.5042644143104553
+    },
+    {
+      "feature": "taxonomic_group_encoded",
+      "importance": 0.24126359820365906
+    },
+    {
+      "feature": "region_encoded",
+      "importance": 0.2295118123292923
+    },
+    {
+      "feature": "population_rolling_std",
+      "importance": 0.19791856408119202
+    },
+    {
+      "feature": "population_cv",
+      "importance": 0.12105262279510498
+    },
+    {
+      "feature": "population_relative_to_peak",
+      "importance": 0.08816128224134445
+    },
+    {
+      "feature": "cumulative_change_rate",
+      "importance": 0.07799553871154785
+    },
+    {
+      "feature": "population_change_rate",
+      "importance": 0.025817394256591797
+    }
+  ]
+}
