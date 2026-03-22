@@ -358,11 +358,7 @@ Make sure no other Streamlit app is running on port 8501.
 
 ## 👨‍💻 Author
 
-**[Your Name]**  
-B.Tech Computer Science  
-[Your College Name]  
-Final Year Project 2025-2026
-
+**Anshuman Chowdhury**, **Argha Dutta**  
 ---
 
 ## 📄 License
