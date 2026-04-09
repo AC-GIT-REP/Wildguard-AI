@@ -2456,33 +2456,31 @@ if st.session_state.main_view == "🗺️ Global Map":
     
     # Header
     st.markdown("""
-    <div style="text-align: center; margin-bottom: 40px; padding: 40px; background: rgba(17, 24, 39, 0.4); border: 1px solid rgba(255,255,255,0.05); border-radius: 24px; backdrop-filter: blur(20px);">
+    <div style="text-align: center; margin-bottom: 48px; padding: 32px 0;">
         <h1 style="
-            font-family: 'Outfit', 'Inter', sans-serif; 
-            font-size: 3.5rem; 
-            font-weight: 800;
-            background: linear-gradient(135deg, #FFD700 0%, #FFF 50%, #FFD700 100%);
+            font-family: 'Outfit', sans-serif; 
+            font-size: 3.2rem; 
+            background: linear-gradient(135deg, #00d4ff 0%, #00ff88 30%, #ffd700 60%, #ff6b6b 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin: 0;
-            letter-spacing: 1px;
-            text-shadow: 0 4px 20px rgba(255, 215, 0, 0.2);
+            letter-spacing: 2px;
         ">
             Global Wildlife Conservation
         </h1>
-        <p style="color: #9ca3af; font-size: 1.25rem; margin-top: 16px; font-weight: 400; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.6;">
-            Interactive visualization showing the conservation status of endangered species across the world.
+        <p style="color: rgba(255,255,255,0.85); font-size: 1.35rem; margin-top: 20px; font-weight: 400; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.7;">
+            Interactive visualization showing the conservation status of endangered species across the world
         </p>
-        <div style="display: flex; justify-content: center; gap: 24px; margin-top: 32px; flex-wrap: wrap;">
-            <div style="display: flex; align-items: center; gap: 10px; font-size: 0.95rem; font-weight: 500; color: #f3f4f6; background: rgba(255, 71, 87, 0.1); padding: 8px 16px; border: 1px solid rgba(255, 71, 87, 0.3); border-radius: 12px;">
-                <div style="width: 10px; height: 10px; background: #ff4757; border-radius: 50%; box-shadow: 0 0 10px #ff4757;"></div> Critical Risk
-            </div>
-            <div style="display: flex; align-items: center; gap: 10px; font-size: 0.95rem; font-weight: 500; color: #f3f4f6; background: rgba(255, 165, 2, 0.1); padding: 8px 16px; border: 1px solid rgba(255, 165, 2, 0.3); border-radius: 12px;">
-                <div style="width: 10px; height: 10px; background: #ffa502; border-radius: 50%; box-shadow: 0 0 10px #ffa502;"></div> Moderate Risk
-            </div>
-            <div style="display: flex; align-items: center; gap: 10px; font-size: 0.95rem; font-weight: 500; color: #f3f4f6; background: rgba(46, 213, 115, 0.1); padding: 8px 16px; border: 1px solid rgba(46, 213, 115, 0.3); border-radius: 12px;">
-                <div style="width: 10px; height: 10px; background: #2ed573; border-radius: 50%; box-shadow: 0 0 10px #2ed573;"></div> Low Risk
-            </div>
+        <div style="display: flex; justify-content: center; gap: 32px; margin-top: 28px; flex-wrap: wrap;">
+            <span style="display: flex; align-items: center; gap: 10px; font-size: 1rem; color: rgba(255,255,255,0.85);">
+                <span style="width: 14px; height: 14px; background: #ff4757; border-radius: 50%; box-shadow: 0 0 8px #ff4757;"></span> Critical Risk
+            </span>
+            <span style="display: flex; align-items: center; gap: 10px; font-size: 1rem; color: rgba(255,255,255,0.85);">
+                <span style="width: 14px; height: 14px; background: #ffa502; border-radius: 50%; box-shadow: 0 0 8px #ffa502;"></span> Moderate Risk
+            </span>
+            <span style="display: flex; align-items: center; gap: 10px; font-size: 1rem; color: rgba(255,255,255,0.85);">
+                <span style="width: 14px; height: 14px; background: #2ed573; border-radius: 50%; box-shadow: 0 0 8px #2ed573;"></span> Low Risk
+            </span>
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -2613,13 +2611,80 @@ if st.session_state.main_view == "🗺️ Global Map":
         </h3>
         <p style="color: rgba(255,255,255,0.7); margin: 0; font-size: 1rem;">Select a region, then click any species to view its detailed conservation dashboard</p>
     </div>
+    
+    <style>
+    .region-explore-btn button {
+        background: rgba(15, 23, 42, 0.4) !important;
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
+        color: #94a3b8 !important;
+        font-size: 0.75rem !important;
+        font-weight: 700 !important;
+        letter-spacing: 1px !important;
+        padding: 4px 0 !important;
+        min-height: 32px !important;
+        border-radius: 8px !important;
+        margin-top: -10px !important;
+        margin-bottom: 16px !important;
+        transition: all 0.3s ease !important;
+    }
+    .region-explore-btn button:hover {
+        background: rgba(0, 212, 255, 0.15) !important;
+        border-color: #00d4ff !important;
+        color: #00d4ff !important;
+        box-shadow: 0 0 12px rgba(0, 212, 255, 0.3) !important;
+    }
+    </style>
     """, unsafe_allow_html=True)
     
-    region_cols = st.columns(len(region_summary))
-    for col, (_, row) in zip(region_cols, region_summary.iterrows()):
-        with col:
-            if st.button(f"🌐 {row['region']}\n({row['species_count']} species)", key=f"region_btn_{row['region']}", width='stretch'):
-                st.session_state.selected_map_region = row['region']
+    cols_per_row = 4
+    for i in range(0, len(region_summary), cols_per_row):
+        cols = st.columns(cols_per_row)
+        for j, col in enumerate(cols):
+            if i + j < len(region_summary):
+                row = region_summary.iloc[i + j]
+                with col:
+                    color_hex = row.get('color', '#00d4ff')
+                    urgency = row.get('avg_urgency', 0.0)
+                    
+                    st.markdown(f"""
+                    <div style="
+                        background: radial-gradient(120% 120% at 50% 0%, rgba(30, 41, 59, 0.9) 0%, rgba(2, 6, 23, 0.95) 100%);
+                        border-radius: 16px;
+                        border: 1px solid rgba(255, 255, 255, 0.05);
+                        border-top: 2px solid {color_hex};
+                        padding: 20px 16px;
+                        text-align: center;
+                        box-shadow: 0 10px 25px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.05);
+                        position: relative;
+                        overflow: hidden;
+                    ">
+                        <div style="
+                            position: absolute; top: -30px; left: 50%; transform: translateX(-50%);
+                            width: 60px; height: 60px; background: {color_hex}; 
+                            filter: blur(35px); opacity: 0.25; border-radius: 50%;
+                        "></div>
+                        <div style="font-size: 2rem; margin-bottom: 2px; filter: drop-shadow(0 0 10px {color_hex}60);">🌍</div>
+                        <h4 style="color: #f1f5f9; margin: 0 0 16px 0; font-family: 'Outfit', sans-serif; font-size: 1.15rem; font-weight: 800; letter-spacing: 0.5px;">
+                            {row['region']}
+                        </h4>
+                        <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 12px; margin-bottom: 4px;">
+                            <div style="text-align: left;">
+                                <span style="display: block; color: rgba(255,255,255,0.4); font-size: 0.65rem; text-transform: uppercase; font-weight: 800; letter-spacing: 0.5px;">Species</span>
+                                <span style="color: #38bdf8; font-weight: 800; font-size: 1rem;">{row['species_count']}</span>
+                            </div>
+                            <div style="text-align: right;">
+                                <span style="display: block; color: rgba(255,255,255,0.4); font-size: 0.65rem; text-transform: uppercase; font-weight: 800; letter-spacing: 0.5px;">Urgency</span>
+                                <span style="color: {color_hex}; font-weight: 800; font-size: 1rem;">{urgency:.1f}</span>
+                            </div>
+                        </div>
+                    </div>
+                    """, unsafe_allow_html=True)
+                    
+                    st.markdown('<div class="region-explore-btn">', unsafe_allow_html=True)
+                    if st.button("EXPLORE", key=f"region_btn_{row['region']}", use_container_width=True):
+                        st.session_state.selected_map_region = row['region']
+                        st.rerun()
+                    st.markdown('</div>', unsafe_allow_html=True)
     
     # Display species in selected region
     if st.session_state.selected_map_region:
