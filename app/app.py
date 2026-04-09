@@ -125,6 +125,8 @@ def handle_logout():
     st.session_state.authenticated = False
     st.session_state.user_email = None
     st.session_state.entered_dashboard = False
+    st.session_state.app_stage = "auth"
+    st.rerun()
 
 
 # =============================================================================
