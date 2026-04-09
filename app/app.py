@@ -2695,30 +2695,21 @@ button[title="View {row['region']}"]:focus:not(:active) {{
                         st.rerun()
 
                     st.markdown(f"""
-<div style="
-    background: radial-gradient(120% 120% at 50% 0%, rgba(30, 41, 59, 0.9) 0%, rgba(2, 6, 23, 0.95) 100%);
-    border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.05); border-top: 2px solid {color_hex};
-    padding: 20px 16px; text-align: center; margin-top: -60px; 
-    box-shadow: 0 10px 25px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.05);
-    position: relative; overflow: hidden; z-index: 1; pointer-events: none;
-">
-    <div style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 80px; height: 80px; background: {color_hex}; filter: blur(35px); opacity: 0.3; border-radius: 50%;"></div>
-    
-    <div style="margin-top: 40px;">
-        <h4 style="color: #f1f5f9; margin: 0 0 16px 0; font-family: 'Outfit', sans-serif; font-size: 1.15rem; font-weight: 800; letter-spacing: 0.5px;">
-            {row['region']}
-        </h4>
-        <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 12px; margin-bottom: 4px;">
-            <div style="text-align: left;">
-                <span style="display: block; color: rgba(255,255,255,0.4); font-size: 0.65rem; text-transform: uppercase;">Species</span>
-                <span style="color: #38bdf8; font-weight: 800; font-size: 1rem;">{row['species_count']}</span>
-            </div>
-            <div style="text-align: right;">
-                <span style="display: block; color: rgba(255,255,255,0.4); font-size: 0.65rem; text-transform: uppercase;">Urgency</span>
-                <span style="color: {color_hex}; font-weight: 800; font-size: 1rem;">{urgency:.1f}</span>
-            </div>
-        </div>
-    </div>
+<div style="background: radial-gradient(120% 120% at 50% 0%, rgba(30, 41, 59, 0.9) 0%, rgba(2, 6, 23, 0.95) 100%); border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.05); border-top: 2px solid {color_hex}; padding: 20px 16px; text-align: center; margin-top: -60px; box-shadow: 0 10px 25px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.05); position: relative; overflow: hidden; z-index: 1; pointer-events: none;">
+<div style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 80px; height: 80px; background: {color_hex}; filter: blur(35px); opacity: 0.3; border-radius: 50%;"></div>
+<div style="margin-top: 40px;">
+<h4 style="color: #f1f5f9; margin: 0 0 16px 0; font-family: 'Outfit', sans-serif; font-size: 1.15rem; font-weight: 800; letter-spacing: 0.5px;">{row['region']}</h4>
+<div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 12px; margin-bottom: 4px;">
+<div style="text-align: left;">
+<span style="display: block; color: rgba(255,255,255,0.4); font-size: 0.65rem; text-transform: uppercase;">Species</span>
+<span style="color: #38bdf8; font-weight: 800; font-size: 1rem;">{row['species_count']}</span>
+</div>
+<div style="text-align: right;">
+<span style="display: block; color: rgba(255,255,255,0.4); font-size: 0.65rem; text-transform: uppercase;">Urgency</span>
+<span style="color: {color_hex}; font-weight: 800; font-size: 1rem;">{urgency:.1f}</span>
+</div>
+</div>
+</div>
 </div>
 """, unsafe_allow_html=True)
     
@@ -2762,39 +2753,15 @@ div.element-container:has(.species-view-anchor) ~ div.element-container {
                 badge_color = risk_badge_colors.get(sp_risk, '#ffa502')
                 
                 st.markdown(f"""
-<div style="
-    border-radius: 16px;
-    overflow: hidden;
-    border: 1px solid rgba(255,255,255,0.1);
-    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-    margin-bottom: 12px;
-    background: rgba(255,255,255,0.03);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-">
-    <div style="position: relative;">
-        <img src="{sp_img}" style="
-            width: 100%;
-            height: 120px;
-            object-fit: cover;
-            display: block;
-        " alt="{sp_row['species']}">
-        <div style="
-            position: absolute; top: 8px; right: 8px;
-            background: {badge_color};
-            color: #fff; font-size: 0.65rem; font-weight: 800;
-            padding: 3px 8px; border-radius: 8px;
-            text-transform: uppercase; letter-spacing: 0.5px;
-            box-shadow: 0 2px 8px {badge_color}60;
-        ">{sp_risk} Risk</div>
-        <div style="
-            position: absolute; bottom: 0; left: 0; right: 0;
-            padding: 24px 12px 8px;
-            background: linear-gradient(transparent, rgba(0,0,0,0.85));
-        ">
-            <div style="color: #fff; font-size: 0.9rem; font-weight: 700;">{sp_row['species']}</div>
-            <div style="color: rgba(255,255,255,0.6); font-size: 0.7rem;">Urgency: {sp_urgency:.1f}/10</div>
-        </div>
-    </div>
+<div style="border-radius: 16px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 4px 20px rgba(0,0,0,0.3); margin-bottom: 12px; background: rgba(255,255,255,0.03); transition: transform 0.2s ease, box-shadow 0.2s ease;">
+<div style="position: relative;">
+<img src="{sp_img}" style="width: 100%; height: 120px; object-fit: cover; display: block;" alt="{sp_row['species']}">
+<div style="position: absolute; top: 8px; right: 8px; background: {badge_color}; color: #fff; font-size: 0.65rem; font-weight: 800; padding: 3px 8px; border-radius: 8px; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 2px 8px {badge_color}60;">{sp_risk} Risk</div>
+<div style="position: absolute; bottom: 0; left: 0; right: 0; padding: 24px 12px 8px; background: linear-gradient(transparent, rgba(0,0,0,0.85));">
+<div style="color: #fff; font-size: 0.9rem; font-weight: 700;">{sp_row['species']}</div>
+<div style="color: rgba(255,255,255,0.6); font-size: 0.7rem;">Urgency: {sp_urgency:.1f}/10</div>
+</div>
+</div>
 </div>
 """, unsafe_allow_html=True)
                 
