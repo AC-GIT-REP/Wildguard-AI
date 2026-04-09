@@ -4,13 +4,17 @@ import binascii
 from pymongo import MongoClient
 from dotenv import load_dotenv
 from pathlib import Path
+import streamlit as st
 
 # Load environment variables
 load_dotenv(Path(__file__).parent.parent / ".env")
 
 class MongoDBManager:
     def __init__(self):
-        self.uri = os.environ.get("MONGO_URI", "mongodb://localhost:27017/")
+        try:
+            self.uri = st.secrets["MONGO_URI"]
+        except Exception:
+            self.uri = os.environ.get("MONGO_URI", "mongodb://localhost:27017/")
         self.db_name = "wildguard_db"
         self.client = None
         self.db = None
