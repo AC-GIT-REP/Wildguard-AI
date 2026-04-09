@@ -1,0 +1,32 @@
+# Secrets — NEVER commit
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# Temp scripts (from development)
+fix_*.py
+apply_*.py
+move_*.py
+inspect_*.py
+verify_*.py

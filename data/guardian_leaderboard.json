@@ -1,0 +1,32 @@
+[
+  {
+    "username": "User 1",
+    "xp": 550,
+    "reports_submitted": 7,
+    "avatar": "\ud83d\udc64"
+  },
+  {
+    "username": "User 2",
+    "xp": 2450,
+    "reports_submitted": 32,
+    "avatar": "\ud83d\udc64"
+  },
+  {
+    "username": "User 3",
+    "xp": 1800,
+    "reports_submitted": 18,
+    "avatar": "\ud83d\udc64"
+  },
+  {
+    "username": "User 4",
+    "xp": 950,
+    "reports_submitted": 11,
+    "avatar": "\ud83d\udc64"
+  },
+  {
+    "username": "User 5",
+    "xp": 400,
+    "reports_submitted": 6,
+    "avatar": "\ud83d\udc64"
+  }
+]

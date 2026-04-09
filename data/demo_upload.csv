@@ -1,0 +1,81 @@
+species_common_name,species_scientific_name,taxonomic_group,region,iucn_status,year,population
+Snow Leopard,Panthera uncia,Mammal,China,VU,2005,6500
+Snow Leopard,Panthera uncia,Mammal,China,VU,2006,6350
+Snow Leopard,Panthera uncia,Mammal,China,VU,2007,6180
+Snow Leopard,Panthera uncia,Mammal,China,VU,2008,6050
+Snow Leopard,Panthera uncia,Mammal,China,VU,2009,5900
+Snow Leopard,Panthera uncia,Mammal,China,VU,2010,5780
+Snow Leopard,Panthera uncia,Mammal,China,VU,2011,5620
+Snow Leopard,Panthera uncia,Mammal,China,VU,2012,5500
+Snow Leopard,Panthera uncia,Mammal,China,VU,2013,5350
+Snow Leopard,Panthera uncia,Mammal,China,VU,2014,5200
+Snow Leopard,Panthera uncia,Mammal,China,VU,2015,5050
+Snow Leopard,Panthera uncia,Mammal,China,VU,2016,4900
+Snow Leopard,Panthera uncia,Mammal,China,VU,2017,4700
+Snow Leopard,Panthera uncia,Mammal,China,VU,2018,4500
+Snow Leopard,Panthera uncia,Mammal,China,VU,2019,4380
+Snow Leopard,Panthera uncia,Mammal,China,VU,2020,4200
+Snow Leopard,Panthera uncia,Mammal,China,VU,2021,4050
+Snow Leopard,Panthera uncia,Mammal,China,VU,2022,3920
+Snow Leopard,Panthera uncia,Mammal,China,VU,2023,3850
+Snow Leopard,Panthera uncia,Mammal,China,VU,2024,3780
+Red Panda,Ailurus fulgens,Mammal,India,EN,2005,14000
+Red Panda,Ailurus fulgens,Mammal,India,EN,2006,13600
+Red Panda,Ailurus fulgens,Mammal,India,EN,2007,13100
+Red Panda,Ailurus fulgens,Mammal,India,EN,2008,12700
+Red Panda,Ailurus fulgens,Mammal,India,EN,2009,12200
+Red Panda,Ailurus fulgens,Mammal,India,EN,2010,11800
+Red Panda,Ailurus fulgens,Mammal,India,EN,2011,11400
+Red Panda,Ailurus fulgens,Mammal,India,EN,2012,10900
+Red Panda,Ailurus fulgens,Mammal,India,EN,2013,10500
+Red Panda,Ailurus fulgens,Mammal,India,EN,2014,10100
+Red Panda,Ailurus fulgens,Mammal,India,EN,2015,9700
+Red Panda,Ailurus fulgens,Mammal,India,EN,2016,9200
+Red Panda,Ailurus fulgens,Mammal,India,EN,2017,8600
+Red Panda,Ailurus fulgens,Mammal,India,EN,2018,8000
+Red Panda,Ailurus fulgens,Mammal,India,EN,2019,7600
+Red Panda,Ailurus fulgens,Mammal,India,EN,2020,7350
+Red Panda,Ailurus fulgens,Mammal,India,EN,2021,7100
+Red Panda,Ailurus fulgens,Mammal,India,EN,2022,6900
+Red Panda,Ailurus fulgens,Mammal,India,EN,2023,6750
+Red Panda,Ailurus fulgens,Mammal,India,EN,2024,6620
+Javan Rhino,Rhinoceros sondaicus,Mammal,India,CR,2005,42
+Javan Rhino,Rhinoceros sondaicus,Mammal,India,CR,2006,44
+Javan Rhino,Rhinoceros sondaicus,Mammal,India,CR,2007,45
+Javan Rhino,Rhinoceros sondaicus,Mammal,India,CR,2008,47
+Javan Rhino,Rhinoceros sondaicus,Mammal,India,CR,2009,48
+Javan Rhino,Rhinoceros sondaicus,Mammal,India,CR,2010,50
+Javan Rhino,Rhinoceros sondaicus,Mammal,India,CR,2011,52
+Javan Rhino,Rhinoceros sondaicus,Mammal,India,CR,2012,54
+Javan Rhino,Rhinoceros sondaicus,Mammal,India,CR,2013,56
+Javan Rhino,Rhinoceros sondaicus,Mammal,India,CR,2014,58
+Javan Rhino,Rhinoceros sondaicus,Mammal,India,CR,2015,60
+Javan Rhino,Rhinoceros sondaicus,Mammal,India,CR,2016,63
+Javan Rhino,Rhinoceros sondaicus,Mammal,India,CR,2017,65
+Javan Rhino,Rhinoceros sondaicus,Mammal,India,CR,2018,68
+Javan Rhino,Rhinoceros sondaicus,Mammal,India,CR,2019,72
+Javan Rhino,Rhinoceros sondaicus,Mammal,India,CR,2020,74
+Javan Rhino,Rhinoceros sondaicus,Mammal,India,CR,2021,76
+Javan Rhino,Rhinoceros sondaicus,Mammal,India,CR,2022,80
+Javan Rhino,Rhinoceros sondaicus,Mammal,India,CR,2023,82
+Javan Rhino,Rhinoceros sondaicus,Mammal,India,CR,2024,87
+African Wild Dog,Lycaon pictus,Mammal,Africa,EN,2005,5800
+African Wild Dog,Lycaon pictus,Mammal,Africa,EN,2006,5900
+African Wild Dog,Lycaon pictus,Mammal,Africa,EN,2007,6050
+African Wild Dog,Lycaon pictus,Mammal,Africa,EN,2008,6200
+African Wild Dog,Lycaon pictus,Mammal,Africa,EN,2009,6400
+African Wild Dog,Lycaon pictus,Mammal,Africa,EN,2010,6600
+African Wild Dog,Lycaon pictus,Mammal,Africa,EN,2011,6900
+African Wild Dog,Lycaon pictus,Mammal,Africa,EN,2012,7100
+African Wild Dog,Lycaon pictus,Mammal,Africa,EN,2013,7400
+African Wild Dog,Lycaon pictus,Mammal,Africa,EN,2014,7600
+African Wild Dog,Lycaon pictus,Mammal,Africa,EN,2015,7800
+African Wild Dog,Lycaon pictus,Mammal,Africa,EN,2016,7500
+African Wild Dog,Lycaon pictus,Mammal,Africa,EN,2017,7200
+African Wild Dog,Lycaon pictus,Mammal,Africa,EN,2018,6900
+African Wild Dog,Lycaon pictus,Mammal,Africa,EN,2019,6700
+African Wild Dog,Lycaon pictus,Mammal,Africa,EN,2020,6600
+African Wild Dog,Lycaon pictus,Mammal,Africa,EN,2021,6400
+African Wild Dog,Lycaon pictus,Mammal,Africa,EN,2022,6200
+African Wild Dog,Lycaon pictus,Mammal,Africa,EN,2023,6050
+African Wild Dog,Lycaon pictus,Mammal,Africa,EN,2024,5900

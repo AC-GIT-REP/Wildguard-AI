@@ -1,0 +1,422 @@
+species_common_name,species_scientific_name,taxonomic_group,region,iucn_status,year,population,is_interpolated,data_source,population_change,population_pct_change,population_rolling_3yr,population_rolling_5yr,overall_trend,risk_level
+African Elephant,Loxodonta africana,Mammal,Africa,EN,1979,1300000,False,African Elephant Database,,,1300000.0,1300000.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,1980,1230900,True,African Elephant Database,-69100.0,-5.315384615384611,1265450.0,1265450.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,1981,1161800,True,African Elephant Database,-69100.0,-5.613778536030544,1230900.0,1230900.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,1982,1092700,True,African Elephant Database,-69100.0,-5.94766741263556,1161800.0,1196350.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,1983,1023600,True,African Elephant Database,-69100.0,-6.323785119428937,1092700.0,1161800.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,1984,954500,True,African Elephant Database,-69100.0,-6.750683860883155,1023600.0,1092700.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,1985,885400,True,African Elephant Database,-69100.0,-7.23939235201676,954500.0,1023600.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,1986,816300,True,African Elephant Database,-69100.0,-7.804382200135529,885400.0,954500.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,1987,747200,True,African Elephant Database,-69100.0,-8.465025113316182,816300.0,885400.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,1988,678100,True,African Elephant Database,-69100.0,-9.247858672376877,747200.0,816300.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,1989,609000,False,African Elephant Database,-69100.0,-10.19023742810795,678100.0,747200.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,1990,604167,True,African Elephant Database,-4833.0,-0.7935960591132996,630422.0,690953.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,1991,599333,True,African Elephant Database,-4834.0,-0.8001099033876358,604167.0,647560.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,1992,594500,True,African Elephant Database,-4833.0,-0.806396444046964,599333.0,617020.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,1993,589667,True,African Elephant Database,-4833.0,-0.8129520605550833,594500.0,599333.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,1994,584833,True,African Elephant Database,-4834.0,-0.8197847259554969,589667.0,594500.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,1995,580000,False,African Elephant Database,-4833.0,-0.8263897557080346,584833.0,589667.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,1996,568571,True,African Elephant Database,-11429.0,-1.9705172413793104,577801.0,583514.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,1997,557143,True,African Elephant Database,-11428.0,-2.0099512637823613,568571.0,576043.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,1998,545714,True,African Elephant Database,-11429.0,-2.051358448369633,557143.0,567252.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,1999,534286,True,African Elephant Database,-11428.0,-2.0941372220613763,545714.0,557143.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2000,522857,True,African Elephant Database,-11429.0,-2.1391165031462545,534286.0,545714.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2001,511429,True,African Elephant Database,-11428.0,-2.185683657290616,522857.0,534286.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2002,500000,False,African Elephant Database,-11429.0,-2.23471879772168,511429.0,522857.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2003,494400,True,African Elephant Database,-5600.0,-1.1199999999999988,501943.0,512594.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2004,488800,True,African Elephant Database,-5600.0,-1.132686084142398,494400.0,503497.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2005,483200,True,African Elephant Database,-5600.0,-1.1456628477905073,488800.0,495566.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2006,477600,True,African Elephant Database,-5600.0,-1.1589403973509935,483200.0,488800.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2007,472000,False,African Elephant Database,-5600.0,-1.1725293132328285,477600.0,483200.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2008,454896,True,African Elephant Database,-17104.0,-3.623728813559324,468165.0,475299.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2009,437792,True,African Elephant Database,-17104.0,-3.75998030319018,454896.0,465098.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2010,420688,True,African Elephant Database,-17104.0,-3.9068781521818585,437792.0,452595.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2011,403583,True,African Elephant Database,-17105.0,-4.065958620165066,420688.0,437792.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2012,386479,True,African Elephant Database,-17104.0,-4.238037776615967,403583.0,420688.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2013,369375,True,African Elephant Database,-17104.0,-4.42559621609454,386479.0,403583.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2014,352271,False,African Elephant Database,-17104.0,-4.630524534686975,369375.0,386479.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2015,383636,True,African Elephant Database,31365.0,8.903656559864427,368427.0,379069.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2016,415000,False,African Elephant Database,31364.0,8.175457986216106,383636.0,381352.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2017,415000,True,African Elephant Database,0.0,0.0,404545.0,387056.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2018,415000,True,African Elephant Database,0.0,0.0,415000.0,396181.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2019,415000,True,African Elephant Database,0.0,0.0,415000.0,408727.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2020,415000,True,African Elephant Database,0.0,0.0,415000.0,415000.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2021,415000,True,African Elephant Database,0.0,0.0,415000.0,415000.0,stable,Medium
+African Elephant,Loxodonta africana,Mammal,Africa,EN,2022,415000,False,African Elephant Database,0.0,0.0,415000.0,415000.0,stable,Medium
+Asian Elephant,Elephas maximus,Mammal,India,EN,1993,23966,False,Project Elephant Census,,,23966.0,23966.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,1994,24188,True,Project Elephant Census,222.0,0.9263122757239506,24077.0,24077.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,1995,24410,True,Project Elephant Census,222.0,0.9178104845377844,24188.0,24188.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,1996,24631,True,Project Elephant Census,221.0,0.9053666530110638,24410.0,24299.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,1997,24853,False,Project Elephant Census,222.0,0.9013032357598094,24631.0,24410.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,1998,25160,True,Project Elephant Census,307.0,1.235263348489113,24881.0,24648.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,1999,25468,True,Project Elephant Census,308.0,1.2241653418124,25160.0,24904.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2000,25775,True,Project Elephant Census,307.0,1.2054342704570509,25468.0,25177.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2001,26083,True,Project Elephant Census,308.0,1.1949563530552876,25775.0,25468.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2002,26390,False,Project Elephant Census,307.0,1.1770118467967716,26083.0,25775.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2003,26643,True,Project Elephant Census,253.0,0.958696475937848,26372.0,26072.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2004,26897,True,Project Elephant Census,254.0,0.9533460946590022,26643.0,26358.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2005,27150,True,Project Elephant Census,253.0,0.9406253485518824,26897.0,26633.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2006,27404,True,Project Elephant Census,254.0,0.9355432780847162,27150.0,26897.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2007,27657,False,Project Elephant Census,253.0,0.92322288716975,27404.0,27150.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2008,28004,True,Project Elephant Census,347.0,1.254655240987823,27688.0,27422.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2009,28351,True,Project Elephant Census,347.0,1.2391086987573183,28004.0,27713.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2010,28697,True,Project Elephant Census,346.0,1.2204155056259047,28351.0,28023.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2011,29044,True,Project Elephant Census,347.0,1.2091856291598369,28697.0,28351.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2012,29391,False,Project Elephant Census,347.0,1.1947390166643812,29044.0,28697.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2013,28975,True,Project Elephant Census,-416.0,-1.4153992718859532,29137.0,28892.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2014,28559,True,Project Elephant Census,-416.0,-1.4357204486626365,28975.0,28933.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2015,28144,True,Project Elephant Census,-415.0,-1.4531321124689245,28559.0,28823.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2016,27728,True,Project Elephant Census,-416.0,-1.4781125639567905,28144.0,28559.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2017,27312,False,Project Elephant Census,-416.0,-1.5002885170225078,27728.0,28144.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2018,26339,True,Project Elephant Census,-973.0,-3.5625366139425907,27126.0,27616.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2019,25366,True,Project Elephant Census,-973.0,-3.694141766961545,26339.0,26978.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2020,24392,True,Project Elephant Census,-974.0,-3.839785539698816,25366.0,26227.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2021,23419,True,Project Elephant Census,-973.0,-3.98901279107904,24392.0,25366.0,moderate_decline,High
+Asian Elephant,Elephas maximus,Mammal,India,EN,2022,22446,False,Project Elephant Census,-973.0,-4.154746146291477,23419.0,24392.0,moderate_decline,High
+Asiatic Lion,Panthera leo persica,Mammal,India,EN,2005,359,False,Gujarat Lion Census,,,359.0,359.0,moderate_recovery,Medium
+Asiatic Lion,Panthera leo persica,Mammal,India,EN,2006,369,True,Gujarat Lion Census,10.0,2.785515320334264,364.0,364.0,moderate_recovery,Medium
+Asiatic Lion,Panthera leo persica,Mammal,India,EN,2007,380,True,Gujarat Lion Census,11.0,2.981029810298108,369.0,369.0,moderate_recovery,Medium
+Asiatic Lion,Panthera leo persica,Mammal,India,EN,2008,390,True,Gujarat Lion Census,10.0,2.631578947368429,380.0,374.0,moderate_recovery,Medium
+Asiatic Lion,Panthera leo persica,Mammal,India,EN,2009,401,True,Gujarat Lion Census,11.0,2.8205128205128105,390.0,380.0,moderate_recovery,Medium
+Asiatic Lion,Panthera leo persica,Mammal,India,EN,2010,411,False,Gujarat Lion Census,10.0,2.493765586034913,401.0,390.0,moderate_recovery,Medium
+Asiatic Lion,Panthera leo persica,Mammal,India,EN,2011,433,True,Gujarat Lion Census,22.0,5.352798053527974,415.0,403.0,moderate_recovery,Medium
+Asiatic Lion,Panthera leo persica,Mammal,India,EN,2012,456,True,Gujarat Lion Census,23.0,5.311778290993074,433.0,418.0,moderate_recovery,Medium
+Asiatic Lion,Panthera leo persica,Mammal,India,EN,2013,478,True,Gujarat Lion Census,22.0,4.824561403508776,456.0,436.0,moderate_recovery,Medium
+Asiatic Lion,Panthera leo persica,Mammal,India,EN,2014,501,True,Gujarat Lion Census,23.0,4.811715481171541,478.0,456.0,moderate_recovery,Medium
+Asiatic Lion,Panthera leo persica,Mammal,India,EN,2015,523,False,Gujarat Lion Census,22.0,4.3912175648702645,501.0,478.0,moderate_recovery,Medium
+Asiatic Lion,Panthera leo persica,Mammal,India,EN,2016,553,True,Gujarat Lion Census,30.0,5.736137667304009,526.0,502.0,moderate_recovery,Medium
+Asiatic Lion,Panthera leo persica,Mammal,India,EN,2017,583,True,Gujarat Lion Census,30.0,5.424954792043391,553.0,528.0,moderate_recovery,Medium
+Asiatic Lion,Panthera leo persica,Mammal,India,EN,2018,614,True,Gujarat Lion Census,31.0,5.317324185248706,583.0,555.0,moderate_recovery,Medium
+Asiatic Lion,Panthera leo persica,Mammal,India,EN,2019,644,True,Gujarat Lion Census,30.0,4.885993485342022,614.0,583.0,moderate_recovery,Medium
+Asiatic Lion,Panthera leo persica,Mammal,India,EN,2020,674,False,Gujarat Lion Census,30.0,4.658385093167694,644.0,614.0,moderate_recovery,Medium
+Asiatic Lion,Panthera leo persica,Mammal,India,EN,2021,706,True,Gujarat Lion Census,32.0,4.747774480712175,675.0,644.0,moderate_recovery,Medium
+Asiatic Lion,Panthera leo persica,Mammal,India,EN,2022,737,True,Gujarat Lion Census,31.0,4.39093484419264,706.0,675.0,moderate_recovery,Medium
+Asiatic Lion,Panthera leo persica,Mammal,India,EN,2023,768,True,Gujarat Lion Census,31.0,4.206241519674348,737.0,706.0,moderate_recovery,Medium
+Asiatic Lion,Panthera leo persica,Mammal,India,EN,2024,800,False,Gujarat Lion Census,32.0,4.166666666666674,768.0,737.0,moderate_recovery,Medium
+Bengal Tiger,Panthera tigris tigris,Mammal,India,EN,2006,1411,False,NTCA Tiger Census,,,1411.0,1411.0,moderate_recovery,Medium
+Bengal Tiger,Panthera tigris tigris,Mammal,India,EN,2007,1485,True,NTCA Tiger Census,74.0,5.244507441530821,1448.0,1448.0,moderate_recovery,Medium
+Bengal Tiger,Panthera tigris tigris,Mammal,India,EN,2008,1558,True,NTCA Tiger Census,73.0,4.915824915824918,1485.0,1485.0,moderate_recovery,Medium
+Bengal Tiger,Panthera tigris tigris,Mammal,India,EN,2009,1632,True,NTCA Tiger Census,74.0,4.7496790757381335,1558.0,1522.0,moderate_recovery,Medium
+Bengal Tiger,Panthera tigris tigris,Mammal,India,EN,2010,1706,False,NTCA Tiger Census,74.0,4.534313725490202,1632.0,1558.0,moderate_recovery,Medium
+Bengal Tiger,Panthera tigris tigris,Mammal,India,EN,2011,1836,True,NTCA Tiger Census,130.0,7.62016412661195,1725.0,1643.0,moderate_recovery,Medium
+Bengal Tiger,Panthera tigris tigris,Mammal,India,EN,2012,1966,True,NTCA Tiger Census,130.0,7.080610021786482,1836.0,1740.0,moderate_recovery,Medium
+Bengal Tiger,Panthera tigris tigris,Mammal,India,EN,2013,2096,True,NTCA Tiger Census,130.0,6.612410986775186,1966.0,1847.0,moderate_recovery,Medium
+Bengal Tiger,Panthera tigris tigris,Mammal,India,EN,2014,2226,False,NTCA Tiger Census,130.0,6.202290076335881,2096.0,1966.0,moderate_recovery,Medium
+Bengal Tiger,Panthera tigris tigris,Mammal,India,EN,2015,2411,True,NTCA Tiger Census,185.0,8.310871518418693,2244.0,2107.0,moderate_recovery,Medium
+Bengal Tiger,Panthera tigris tigris,Mammal,India,EN,2016,2596,True,NTCA Tiger Census,185.0,7.673164661965992,2411.0,2259.0,moderate_recovery,Medium
+Bengal Tiger,Panthera tigris tigris,Mammal,India,EN,2017,2782,True,NTCA Tiger Census,186.0,7.1648690292758,2596.0,2422.0,moderate_recovery,Medium
+Bengal Tiger,Panthera tigris tigris,Mammal,India,EN,2018,2967,False,NTCA Tiger Census,185.0,6.649892163910853,2782.0,2596.0,moderate_recovery,Medium
+Bengal Tiger,Panthera tigris tigris,Mammal,India,EN,2019,3146,True,NTCA Tiger Census,179.0,6.033029996629602,2965.0,2780.0,moderate_recovery,Medium
+Bengal Tiger,Panthera tigris tigris,Mammal,India,EN,2020,3324,True,NTCA Tiger Census,178.0,5.657978385251106,3146.0,2963.0,moderate_recovery,Medium
+Bengal Tiger,Panthera tigris tigris,Mammal,India,EN,2021,3503,True,NTCA Tiger Census,179.0,5.38507821901324,3324.0,3144.0,moderate_recovery,Medium
+Bengal Tiger,Panthera tigris tigris,Mammal,India,EN,2022,3682,False,NTCA Tiger Census,179.0,5.109905795032832,3503.0,3324.0,moderate_recovery,Medium
+California Condor,Gymnogyps californianus,Bird,USA,CR,1982,22,False,USFWS Recovery Program,,,22.0,22.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,1983,23,True,USFWS Recovery Program,1.0,4.545454545454541,22.0,22.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,1984,24,True,USFWS Recovery Program,1.0,4.347826086956519,23.0,23.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,1985,25,True,USFWS Recovery Program,1.0,4.166666666666674,24.0,24.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,1986,26,True,USFWS Recovery Program,1.0,4.000000000000004,25.0,24.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,1987,27,False,USFWS Recovery Program,1.0,3.846153846153855,26.0,25.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,1988,34,True,USFWS Recovery Program,7.0,25.92592592592593,29.0,27.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,1989,41,True,USFWS Recovery Program,7.0,20.58823529411764,34.0,31.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,1990,49,True,USFWS Recovery Program,8.0,19.512195121951216,41.0,35.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,1991,56,True,USFWS Recovery Program,7.0,14.28571428571428,49.0,41.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,1992,63,False,USFWS Recovery Program,7.0,12.5,56.0,49.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,1993,76,True,USFWS Recovery Program,13.0,20.63492063492063,65.0,57.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,1994,88,True,USFWS Recovery Program,12.0,15.789473684210533,76.0,66.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,1995,100,True,USFWS Recovery Program,12.0,13.636363636363647,88.0,77.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,1996,113,True,USFWS Recovery Program,13.0,12.99999999999999,100.0,88.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,1997,126,True,USFWS Recovery Program,13.0,11.504424778761058,113.0,101.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,1998,138,True,USFWS Recovery Program,12.0,9.523809523809534,126.0,113.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,1999,150,True,USFWS Recovery Program,12.0,8.695652173913038,138.0,125.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2000,163,False,USFWS Recovery Program,13.0,8.666666666666668,150.0,138.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2001,183,True,USFWS Recovery Program,20.0,12.269938650306743,165.0,152.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2002,203,True,USFWS Recovery Program,20.0,10.92896174863387,183.0,167.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2003,223,True,USFWS Recovery Program,20.0,9.852216748768484,203.0,184.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2004,242,True,USFWS Recovery Program,19.0,8.520179372197312,223.0,203.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2005,262,True,USFWS Recovery Program,20.0,8.264462809917351,242.0,223.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2006,282,True,USFWS Recovery Program,20.0,7.6335877862595325,262.0,242.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2007,302,True,USFWS Recovery Program,20.0,7.092198581560294,282.0,262.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2008,322,False,USFWS Recovery Program,20.0,6.62251655629138,302.0,282.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2009,339,True,USFWS Recovery Program,17.0,5.2795031055900665,321.0,301.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2010,356,True,USFWS Recovery Program,17.0,5.014749262536866,339.0,320.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2011,374,True,USFWS Recovery Program,18.0,5.0561797752809,356.0,339.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2012,391,True,USFWS Recovery Program,17.0,4.545454545454541,374.0,356.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2013,408,True,USFWS Recovery Program,17.0,4.347826086956519,391.0,374.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2014,425,False,USFWS Recovery Program,17.0,4.166666666666674,408.0,391.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2015,438,True,USFWS Recovery Program,13.0,3.0588235294117583,424.0,407.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2016,451,True,USFWS Recovery Program,13.0,2.9680365296803624,438.0,423.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2017,464,True,USFWS Recovery Program,13.0,2.882483370288247,451.0,437.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2018,478,True,USFWS Recovery Program,14.0,3.0172413793103425,464.0,451.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2019,491,True,USFWS Recovery Program,13.0,2.7196652719665204,478.0,464.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2020,504,False,USFWS Recovery Program,13.0,2.6476578411405383,491.0,478.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2021,523,True,USFWS Recovery Program,19.0,3.769841269841279,506.0,492.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2022,542,True,USFWS Recovery Program,19.0,3.632887189292533,523.0,508.0,moderate_recovery,High
+California Condor,Gymnogyps californianus,Bird,USA,CR,2023,561,False,USFWS Recovery Program,19.0,3.505535055350561,542.0,524.0,moderate_recovery,High
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2000,4000,False,WWF-India Survey,,,4000.0,4000.0,moderate_recovery,Medium
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2001,3900,True,WWF-India Survey,-100.0,-2.500000000000002,3950.0,3950.0,moderate_recovery,Medium
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2002,3800,True,WWF-India Survey,-100.0,-2.564102564102566,3900.0,3900.0,moderate_recovery,Medium
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2003,3700,True,WWF-India Survey,-100.0,-2.631578947368418,3800.0,3850.0,moderate_recovery,Medium
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2004,3600,True,WWF-India Survey,-100.0,-2.7027027027026973,3700.0,3800.0,moderate_recovery,Medium
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2005,3500,False,WWF-India Survey,-100.0,-2.777777777777779,3600.0,3700.0,moderate_recovery,Medium
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2006,3400,True,WWF-India Survey,-100.0,-2.857142857142858,3500.0,3600.0,moderate_recovery,Medium
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2007,3300,True,WWF-India Survey,-100.0,-2.941176470588236,3400.0,3500.0,moderate_recovery,Medium
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2008,3200,True,WWF-India Survey,-100.0,-3.030303030303028,3300.0,3400.0,moderate_recovery,Medium
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2009,3100,True,WWF-India Survey,-100.0,-3.125,3200.0,3300.0,moderate_recovery,Medium
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2010,3000,False,WWF-India Survey,-100.0,-3.2258064516129004,3100.0,3200.0,moderate_recovery,Medium
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2011,2900,True,WWF-India Survey,-100.0,-3.3333333333333326,3000.0,3100.0,moderate_recovery,Medium
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2012,2800,True,WWF-India Survey,-100.0,-3.4482758620689613,2900.0,3000.0,moderate_recovery,Medium
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2013,2700,True,WWF-India Survey,-100.0,-3.57142857142857,2800.0,2900.0,moderate_recovery,Medium
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2014,2600,True,WWF-India Survey,-100.0,-3.703703703703709,2700.0,2800.0,moderate_recovery,Medium
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2015,2500,False,WWF-India Survey,-100.0,-3.846153846153844,2600.0,2700.0,moderate_recovery,Medium
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2016,2833,True,WWF-India Survey,333.0,13.32,2644.0,2687.0,moderate_recovery,Medium
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2017,3167,True,WWF-India Survey,334.0,11.789622308506884,2833.0,2760.0,moderate_recovery,Medium
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2018,3500,False,WWF-India Survey,333.0,10.514682664982631,3167.0,2920.0,moderate_recovery,Medium
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2019,3625,True,WWF-India Survey,125.0,3.571428571428581,3431.0,3125.0,moderate_recovery,Medium
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2020,3750,True,WWF-India Survey,125.0,3.4482758620689724,3625.0,3375.0,moderate_recovery,Medium
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2021,3875,True,WWF-India Survey,125.0,3.333333333333344,3750.0,3583.0,moderate_recovery,Medium
+Ganges River Dolphin,Platanista gangetica,Aquatic Mammal,India,EN,2022,4000,False,WWF-India Survey,125.0,3.2258064516129004,3875.0,3750.0,moderate_recovery,Medium
+Gharial,Gavialis gangeticus,Reptile,India,CR,1970,5000,False,Gharial Conservation Survey,,,5000.0,5000.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1971,4520,True,Gharial Conservation Survey,-480.0,-9.599999999999998,4760.0,4760.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1972,4040,True,Gharial Conservation Survey,-480.0,-10.619469026548678,4520.0,4520.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1973,3560,True,Gharial Conservation Survey,-480.0,-11.88118811881188,4040.0,4280.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1974,3080,True,Gharial Conservation Survey,-480.0,-13.48314606741573,3560.0,4040.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1975,2600,True,Gharial Conservation Survey,-480.0,-15.58441558441559,3080.0,3560.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1976,2120,True,Gharial Conservation Survey,-480.0,-18.461538461538463,2600.0,3080.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1977,1640,True,Gharial Conservation Survey,-480.0,-22.64150943396226,2120.0,2600.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1978,1160,True,Gharial Conservation Survey,-480.0,-29.26829268292684,1640.0,2120.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1979,680,True,Gharial Conservation Survey,-480.0,-41.3793103448276,1160.0,1640.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1980,200,False,Gharial Conservation Survey,-480.0,-70.58823529411764,680.0,1160.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1981,195,True,Gharial Conservation Survey,-5.0,-2.500000000000002,358.0,775.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1982,190,True,Gharial Conservation Survey,-5.0,-2.564102564102566,195.0,485.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1983,185,True,Gharial Conservation Survey,-5.0,-2.631578947368418,190.0,290.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1984,180,True,Gharial Conservation Survey,-5.0,-2.7027027027026973,185.0,190.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1985,175,True,Gharial Conservation Survey,-5.0,-2.777777777777779,180.0,185.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1986,170,True,Gharial Conservation Survey,-5.0,-2.857142857142858,175.0,180.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1987,165,True,Gharial Conservation Survey,-5.0,-2.941176470588236,170.0,175.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1988,160,True,Gharial Conservation Survey,-5.0,-3.030303030303028,165.0,170.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1989,155,True,Gharial Conservation Survey,-5.0,-3.125,160.0,165.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1990,150,False,Gharial Conservation Survey,-5.0,-3.2258064516129004,155.0,160.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1991,155,True,Gharial Conservation Survey,5.0,3.333333333333344,153.0,157.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1992,160,True,Gharial Conservation Survey,5.0,3.2258064516129004,155.0,156.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1993,165,True,Gharial Conservation Survey,5.0,3.125,160.0,157.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1994,170,True,Gharial Conservation Survey,5.0,3.030303030303028,165.0,160.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1995,175,True,Gharial Conservation Survey,5.0,2.941176470588225,170.0,165.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1996,180,True,Gharial Conservation Survey,5.0,2.857142857142847,175.0,170.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1997,185,True,Gharial Conservation Survey,5.0,2.777777777777768,180.0,175.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1998,190,True,Gharial Conservation Survey,5.0,2.7027027027026973,185.0,180.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,1999,195,True,Gharial Conservation Survey,5.0,2.631578947368429,190.0,185.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2000,200,False,Gharial Conservation Survey,5.0,2.564102564102555,195.0,190.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2001,215,True,Gharial Conservation Survey,15.0,7.499999999999996,203.0,197.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2002,230,True,Gharial Conservation Survey,15.0,6.976744186046502,215.0,206.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2003,245,True,Gharial Conservation Survey,15.0,6.521739130434789,230.0,217.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2004,260,True,Gharial Conservation Survey,15.0,6.122448979591844,245.0,230.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2005,275,True,Gharial Conservation Survey,15.0,5.769230769230771,260.0,245.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2006,290,True,Gharial Conservation Survey,15.0,5.454545454545445,275.0,260.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2007,305,True,Gharial Conservation Survey,15.0,5.172413793103448,290.0,275.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2008,320,True,Gharial Conservation Survey,15.0,4.918032786885251,305.0,290.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2009,335,True,Gharial Conservation Survey,15.0,4.6875,320.0,305.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2010,350,False,Gharial Conservation Survey,15.0,4.477611940298498,335.0,320.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2011,393,True,Gharial Conservation Survey,43.0,12.285714285714278,359.0,341.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2012,436,True,Gharial Conservation Survey,43.0,10.941475826972002,393.0,367.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2013,479,True,Gharial Conservation Survey,43.0,9.86238532110091,436.0,399.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2014,521,True,Gharial Conservation Survey,42.0,8.768267223382043,479.0,436.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2015,564,True,Gharial Conservation Survey,43.0,8.25335892514396,521.0,479.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2016,607,True,Gharial Conservation Survey,43.0,7.624113475177308,564.0,521.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2017,650,False,Gharial Conservation Survey,43.0,7.084019769357486,607.0,564.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2018,720,True,Gharial Conservation Survey,70.0,10.769230769230775,659.0,612.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2019,790,True,Gharial Conservation Survey,70.0,9.722222222222232,720.0,666.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2020,860,True,Gharial Conservation Survey,70.0,8.860759493670889,790.0,725.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2021,930,True,Gharial Conservation Survey,70.0,8.139534883720923,860.0,790.0,moderate_recovery,High
+Gharial,Gavialis gangeticus,Reptile,India,CR,2022,1000,False,Gharial Conservation Survey,70.0,7.526881720430101,930.0,860.0,moderate_recovery,High
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1976,1050,False,China National Panda Census,,,1050.0,1050.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1977,1057,True,China National Panda Census,7.0,0.6666666666666599,1054.0,1054.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1978,1064,True,China National Panda Census,7.0,0.6622516556291425,1057.0,1057.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1979,1071,True,China National Panda Census,7.0,0.6578947368421018,1064.0,1060.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1980,1078,True,China National Panda Census,7.0,0.6535947712418277,1071.0,1064.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1981,1086,True,China National Panda Census,8.0,0.7421150278293043,1078.0,1071.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1982,1093,True,China National Panda Census,7.0,0.6445672191528473,1086.0,1078.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1983,1100,True,China National Panda Census,7.0,0.6404391582799596,1093.0,1086.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1984,1107,True,China National Panda Census,7.0,0.6363636363636349,1100.0,1093.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1985,1114,False,China National Panda Census,7.0,0.6323396567299078,1107.0,1100.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1986,1146,True,China National Panda Census,32.0,2.872531418312385,1122.0,1112.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1987,1178,True,China National Panda Census,32.0,2.7923211169284423,1146.0,1129.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1988,1210,True,China National Panda Census,32.0,2.716468590831922,1178.0,1151.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1989,1243,True,China National Panda Census,33.0,2.7272727272727337,1210.0,1178.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1990,1275,True,China National Panda Census,32.0,2.574416733708773,1243.0,1210.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1991,1307,True,China National Panda Census,32.0,2.509803921568632,1275.0,1243.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1992,1339,True,China National Panda Census,32.0,2.448355011476666,1307.0,1275.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1993,1371,True,China National Panda Census,32.0,2.389843166542205,1339.0,1307.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1994,1403,True,China National Panda Census,32.0,2.334062727935815,1371.0,1339.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1995,1435,True,China National Panda Census,32.0,2.2808267997148857,1403.0,1371.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1996,1467,True,China National Panda Census,32.0,2.2299651567944334,1435.0,1403.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1997,1500,True,China National Panda Census,33.0,2.249488752556239,1467.0,1435.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1998,1532,True,China National Panda Census,32.0,2.133333333333342,1500.0,1467.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,1999,1564,True,China National Panda Census,32.0,2.088772845953013,1532.0,1500.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2000,1596,False,China National Panda Census,32.0,2.0460358056265893,1564.0,1532.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2001,1596,True,China National Panda Census,0.0,0.0,1585.0,1558.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2002,1596,True,China National Panda Census,0.0,0.0,1596.0,1577.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2003,1596,True,China National Panda Census,0.0,0.0,1596.0,1590.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2004,1596,False,China National Panda Census,0.0,0.0,1596.0,1596.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2005,1623,True,China National Panda Census,27.0,1.6917293233082775,1605.0,1601.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2006,1650,True,China National Panda Census,27.0,1.6635859519408491,1623.0,1612.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2007,1676,True,China National Panda Census,26.0,1.575757575757586,1650.0,1628.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2008,1703,True,China National Panda Census,27.0,1.610978520286399,1676.0,1650.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2009,1730,True,China National Panda Census,27.0,1.5854374633000656,1703.0,1676.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2010,1757,True,China National Panda Census,27.0,1.5606936416185049,1730.0,1703.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2011,1784,True,China National Panda Census,27.0,1.5367103016505457,1757.0,1730.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2012,1810,True,China National Panda Census,26.0,1.4573991031390232,1784.0,1757.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2013,1837,True,China National Panda Census,27.0,1.4917127071823133,1810.0,1784.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2014,1864,False,China National Panda Census,27.0,1.469787697332614,1837.0,1810.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2015,1864,True,China National Panda Census,0.0,0.0,1855.0,1832.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2016,1864,True,China National Panda Census,0.0,0.0,1864.0,1848.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2017,1864,True,China National Panda Census,0.0,0.0,1864.0,1859.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2018,1864,True,China National Panda Census,0.0,0.0,1864.0,1864.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2019,1864,True,China National Panda Census,0.0,0.0,1864.0,1864.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2020,1864,True,China National Panda Census,0.0,0.0,1864.0,1864.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2021,1864,False,China National Panda Census,0.0,0.0,1864.0,1864.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2022,1876,True,China National Panda Census,12.0,0.6437768240343367,1868.0,1866.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2023,1888,True,China National Panda Census,12.0,0.6396588486140775,1876.0,1871.0,stable,Low
+Giant Panda,Ailuropoda melanoleuca,Mammal,China,VU,2024,1900,False,China National Panda Census,12.0,0.6355932203389925,1888.0,1878.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2000,3500,False,USFWS Wolf Recovery Program,,,3500.0,3500.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2001,3700,True,USFWS Wolf Recovery Program,200.0,5.714285714285714,3700.0,3700.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2002,3950,True,USFWS Wolf Recovery Program,250.0,6.756756756756757,3950.0,3950.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2003,4200,True,USFWS Wolf Recovery Program,250.0,6.329113924050633,4200.0,4200.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2004,4500,True,USFWS Wolf Recovery Program,300.0,7.142857142857142,4500.0,4500.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2005,4800,True,USFWS Wolf Recovery Program,300.0,6.666666666666667,4800.0,4800.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2006,5100,False,USFWS Wolf Recovery Program,300.0,6.25,5100.0,5100.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2007,5400,True,USFWS Wolf Recovery Program,300.0,5.88235294117647,5400.0,5400.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2008,5650,True,USFWS Wolf Recovery Program,250.0,4.62962962962963,5650.0,5650.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2009,5850,True,USFWS Wolf Recovery Program,200.0,3.5398230088495577,5850.0,5850.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2010,6000,False,USFWS Wolf Recovery Program,150.0,2.564102564102564,6000.0,6000.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2011,6100,True,USFWS Wolf Recovery Program,100.0,1.6666666666666667,6100.0,6100.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2012,6200,True,USFWS Wolf Recovery Program,100.0,1.639344262295082,6200.0,6200.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2013,6250,True,USFWS Wolf Recovery Program,50.0,0.8064516129032258,6250.0,6250.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2014,6300,True,USFWS Wolf Recovery Program,50.0,0.8,6300.0,6300.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2015,6350,False,USFWS Wolf Recovery Program,50.0,0.7936507936507936,6350.0,6350.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2016,6400,True,USFWS Wolf Recovery Program,50.0,0.7874015748031495,6400.0,6400.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2017,6450,True,USFWS Wolf Recovery Program,50.0,0.78125,6450.0,6450.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2018,6500,True,USFWS Wolf Recovery Program,50.0,0.7751937984496124,6500.0,6500.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2019,6550,True,USFWS Wolf Recovery Program,50.0,0.7692307692307693,6550.0,6550.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2020,6600,False,USFWS Wolf Recovery Program,50.0,0.7633587786259541,6600.0,6600.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2021,6650,True,USFWS Wolf Recovery Program,50.0,0.7575757575757576,6650.0,6650.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2022,6700,True,USFWS Wolf Recovery Program,50.0,0.7518796992481203,6700.0,6700.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2023,6750,True,USFWS Wolf Recovery Program,50.0,0.7462686567164178,6750.0,6750.0,stable,Low
+Gray Wolf,Canis lupus,Mammal,North America,LC,2024,6800,False,USFWS Wolf Recovery Program,50.0,0.7407407407407408,6800.0,6800.0,stable,Low
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1969,1260,False,WII Survey,,,1260.0,1260.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1970,1213,True,WII Survey,-47.0,-3.730158730158728,1236.0,1236.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1971,1166,True,WII Survey,-47.0,-3.874690849134377,1213.0,1213.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1972,1120,True,WII Survey,-46.0,-3.9451114922813058,1166.0,1190.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1973,1073,True,WII Survey,-47.0,-4.196428571428568,1120.0,1166.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1974,1026,True,WII Survey,-47.0,-4.380242311276794,1073.0,1120.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1975,979,True,WII Survey,-47.0,-4.580896686159841,1026.0,1073.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1976,932,True,WII Survey,-47.0,-4.800817160367721,979.0,1026.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1977,885,True,WII Survey,-47.0,-5.042918454935618,932.0,979.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1978,839,True,WII Survey,-46.0,-5.197740112994353,885.0,932.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1979,792,True,WII Survey,-47.0,-5.601907032181163,839.0,885.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1980,745,False,WII Survey,-47.0,-5.934343434343436,792.0,839.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1981,706,True,WII Survey,-39.0,-5.234899328859055,748.0,793.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1982,666,True,WII Survey,-40.0,-5.6657223796034,706.0,750.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1983,626,True,WII Survey,-40.0,-6.006006006006004,666.0,707.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1984,587,True,WII Survey,-39.0,-6.230031948881787,626.0,666.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1985,548,True,WII Survey,-39.0,-6.643952299829648,587.0,627.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1986,508,True,WII Survey,-40.0,-7.299270072992703,548.0,587.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1987,468,True,WII Survey,-40.0,-7.874015748031493,508.0,547.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1988,429,True,WII Survey,-39.0,-8.333333333333337,468.0,508.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1989,390,True,WII Survey,-39.0,-9.090909090909092,429.0,469.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1990,350,False,WII Survey,-40.0,-10.256410256410254,390.0,429.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1991,335,True,WII Survey,-15.0,-4.285714285714281,358.0,394.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1992,320,True,WII Survey,-15.0,-4.477611940298509,335.0,365.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1993,305,True,WII Survey,-15.0,-4.6875,320.0,340.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1994,290,True,WII Survey,-15.0,-4.918032786885251,305.0,320.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1995,275,True,WII Survey,-15.0,-5.172413793103448,290.0,305.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1996,260,True,WII Survey,-15.0,-5.454545454545457,275.0,290.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1997,245,True,WII Survey,-15.0,-5.769230769230771,260.0,275.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1998,230,True,WII Survey,-15.0,-6.122448979591832,245.0,260.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,1999,215,True,WII Survey,-15.0,-6.521739130434778,230.0,245.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2000,200,False,WII Survey,-15.0,-6.976744186046513,215.0,230.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2001,195,True,WII Survey,-5.0,-2.500000000000002,203.0,217.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2002,191,True,WII Survey,-4.0,-2.051282051282055,195.0,206.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2003,186,True,WII Survey,-5.0,-2.617801047120416,191.0,197.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2004,182,True,WII Survey,-4.0,-2.1505376344086,186.0,191.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2005,177,True,WII Survey,-5.0,-2.7472527472527486,182.0,186.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2006,173,True,WII Survey,-4.0,-2.259887005649719,177.0,182.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2007,168,True,WII Survey,-5.0,-2.8901734104046284,173.0,177.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2008,164,True,WII Survey,-4.0,-2.380952380952384,168.0,173.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2009,159,True,WII Survey,-5.0,-3.0487804878048808,164.0,168.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2010,155,True,WII Survey,-4.0,-2.515723270440251,159.0,164.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2011,150,False,WII Survey,-5.0,-3.2258064516129004,155.0,159.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2012,147,True,WII Survey,-3.0,-2.0000000000000018,151.0,155.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2013,144,True,WII Survey,-3.0,-2.0408163265306145,147.0,151.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2014,141,True,WII Survey,-3.0,-2.083333333333337,144.0,147.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2015,137,True,WII Survey,-4.0,-2.8368794326241176,141.0,144.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2016,134,True,WII Survey,-3.0,-2.1897810218978075,137.0,141.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2017,131,True,WII Survey,-3.0,-2.238805970149249,134.0,137.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2018,128,False,WII Survey,-3.0,-2.2900763358778664,131.0,134.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2019,134,True,WII Survey,6.0,4.6875,131.0,133.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2020,139,True,WII Survey,5.0,3.731343283582089,134.0,133.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2021,144,True,WII Survey,5.0,3.597122302158273,139.0,135.0,moderate_recovery,High
+Great Indian Bustard,Ardeotis nigriceps,Bird,India,CR,2022,150,False,WII Survey,6.0,4.166666666666674,144.0,139.0,moderate_recovery,High
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2000,30000,False,IWC Population Assessment,,,30000.0,30000.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2001,32000,True,IWC Population Assessment,2000.0,6.666666666666667,32000.0,32000.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2002,34100,True,IWC Population Assessment,2100.0,6.5625,34100.0,34100.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2003,36300,True,IWC Population Assessment,2200.0,6.451612903225806,36300.0,36300.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2004,38600,True,IWC Population Assessment,2300.0,6.336088154269973,38600.0,38600.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2005,41000,False,IWC Population Assessment,2400.0,6.217616580310881,41000.0,41000.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2006,43500,True,IWC Population Assessment,2500.0,6.097560975609756,43500.0,43500.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2007,46200,True,IWC Population Assessment,2700.0,6.206896551724138,46200.0,46200.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2008,49000,True,IWC Population Assessment,2800.0,6.0606060606060606,49000.0,49000.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2009,51900,True,IWC Population Assessment,2900.0,5.918367346938775,51900.0,51900.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2010,55000,False,IWC Population Assessment,3100.0,5.973025048169557,55000.0,55000.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2011,57800,True,IWC Population Assessment,2800.0,5.090909090909091,57800.0,57800.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2012,60700,True,IWC Population Assessment,2900.0,5.017301038062284,60700.0,60700.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2013,63800,True,IWC Population Assessment,3100.0,5.107084019769357,63800.0,63800.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2014,67000,True,IWC Population Assessment,3200.0,5.015673981191222,67000.0,67000.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2015,70400,False,IWC Population Assessment,3400.0,5.074626865671641,70400.0,70400.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2016,73900,True,IWC Population Assessment,3500.0,4.971590909090909,73900.0,73900.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2017,77600,True,IWC Population Assessment,3700.0,5.006765899864682,77600.0,77600.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2018,80000,True,IWC Population Assessment,2400.0,3.09278350515464,80000.0,80000.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2019,82000,True,IWC Population Assessment,2000.0,2.5,82000.0,82000.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2020,84000,False,IWC Population Assessment,2000.0,2.4390243902439024,84000.0,84000.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2021,85500,True,IWC Population Assessment,1500.0,1.7857142857142856,85500.0,85500.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2022,87000,True,IWC Population Assessment,1500.0,1.7543859649122806,87000.0,87000.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2023,88000,True,IWC Population Assessment,1000.0,1.1494252873563218,88000.0,88000.0,recovering,Low
+Humpback Whale,Megaptera novaeangliae,Marine Mammal,Global Oceans,LC,2024,89000,False,IWC Population Assessment,1000.0,1.1363636363636365,89000.0,89000.0,recovering,Low
+Indian Rhinoceros,Rhinoceros unicornis,Mammal,India,VU,2006,2575,False,Assam/WB Forest Department,,,2575.0,2575.0,moderate_recovery,Low
+Indian Rhinoceros,Rhinoceros unicornis,Mammal,India,VU,2007,2617,True,Assam/WB Forest Department,42.0,1.6310679611650558,2596.0,2596.0,moderate_recovery,Low
+Indian Rhinoceros,Rhinoceros unicornis,Mammal,India,VU,2008,2658,True,Assam/WB Forest Department,41.0,1.5666794038975862,2617.0,2617.0,moderate_recovery,Low
+Indian Rhinoceros,Rhinoceros unicornis,Mammal,India,VU,2009,2700,False,Assam/WB Forest Department,42.0,1.5801354401805856,2658.0,2638.0,moderate_recovery,Low
+Indian Rhinoceros,Rhinoceros unicornis,Mammal,India,VU,2010,2750,True,Assam/WB Forest Department,50.0,1.85185185185186,2703.0,2660.0,moderate_recovery,Low
+Indian Rhinoceros,Rhinoceros unicornis,Mammal,India,VU,2011,2800,True,Assam/WB Forest Department,50.0,1.818181818181808,2750.0,2705.0,moderate_recovery,Low
+Indian Rhinoceros,Rhinoceros unicornis,Mammal,India,VU,2012,2850,False,Assam/WB Forest Department,50.0,1.7857142857142794,2800.0,2752.0,moderate_recovery,Low
+Indian Rhinoceros,Rhinoceros unicornis,Mammal,India,VU,2013,2988,True,Assam/WB Forest Department,138.0,4.842105263157892,2879.0,2818.0,moderate_recovery,Low
+Indian Rhinoceros,Rhinoceros unicornis,Mammal,India,VU,2014,3126,True,Assam/WB Forest Department,138.0,4.61847389558232,2988.0,2903.0,moderate_recovery,Low
+Indian Rhinoceros,Rhinoceros unicornis,Mammal,India,VU,2015,3264,False,Assam/WB Forest Department,138.0,4.414587332053732,3126.0,3006.0,moderate_recovery,Low
+Indian Rhinoceros,Rhinoceros unicornis,Mammal,India,VU,2016,3343,True,Assam/WB Forest Department,79.0,2.420343137254899,3244.0,3114.0,moderate_recovery,Low
+Indian Rhinoceros,Rhinoceros unicornis,Mammal,India,VU,2017,3421,True,Assam/WB Forest Department,78.0,2.333233622494757,3343.0,3228.0,moderate_recovery,Low
+Indian Rhinoceros,Rhinoceros unicornis,Mammal,India,VU,2018,3500,False,Assam/WB Forest Department,79.0,2.309266296404555,3421.0,3331.0,moderate_recovery,Low
+Indian Rhinoceros,Rhinoceros unicornis,Mammal,India,VU,2019,3567,True,Assam/WB Forest Department,67.0,1.9142857142857128,3496.0,3419.0,moderate_recovery,Low
+Indian Rhinoceros,Rhinoceros unicornis,Mammal,India,VU,2020,3633,True,Assam/WB Forest Department,66.0,1.8502943650126056,3567.0,3493.0,moderate_recovery,Low
+Indian Rhinoceros,Rhinoceros unicornis,Mammal,India,VU,2021,3700,False,Assam/WB Forest Department,67.0,1.844205890448669,3633.0,3564.0,moderate_recovery,Low
+Indian Rhinoceros,Rhinoceros unicornis,Mammal,India,VU,2022,3805,True,Assam/WB Forest Department,105.0,2.837837837837842,3713.0,3641.0,moderate_recovery,Low
+Indian Rhinoceros,Rhinoceros unicornis,Mammal,India,VU,2023,3909,True,Assam/WB Forest Department,104.0,2.733245729303557,3805.0,3723.0,moderate_recovery,Low
+Indian Rhinoceros,Rhinoceros unicornis,Mammal,India,VU,2024,4014,False,Assam/WB Forest Department,105.0,2.6861089792785897,3909.0,3812.0,moderate_recovery,Low
+Snow Leopard,Panthera uncia,Mammal,China,VU,2005,6500,False,User Upload,,,6500.0,6500.0,stable,Low
+Snow Leopard,Panthera uncia,Mammal,China,VU,2006,6350,False,User Upload,-150.0,-2.3076923076923106,6425.0,6425.0,moderate_decline,Low
+Snow Leopard,Panthera uncia,Mammal,China,VU,2007,6180,False,User Upload,-170.0,-2.677165354330713,6343.333333333333,6343.333333333333,moderate_decline,Low
+Snow Leopard,Panthera uncia,Mammal,China,VU,2008,6050,False,User Upload,-130.0,-2.1035598705501646,6193.333333333333,6270.0,moderate_decline,Low
+Snow Leopard,Panthera uncia,Mammal,China,VU,2009,5900,False,User Upload,-150.0,-2.479338842975209,6043.333333333333,6196.0,moderate_decline,Low
+Snow Leopard,Panthera uncia,Mammal,China,VU,2010,5780,False,User Upload,-120.0,-2.033898305084747,5910.0,6052.0,moderate_decline,Low
+Snow Leopard,Panthera uncia,Mammal,China,VU,2011,5620,False,User Upload,-160.0,-2.768166089965396,5766.666666666667,5906.0,moderate_decline,Low
+Snow Leopard,Panthera uncia,Mammal,China,VU,2012,5500,False,User Upload,-120.0,-2.135231316725983,5633.333333333333,5770.0,moderate_decline,Low
+Snow Leopard,Panthera uncia,Mammal,China,VU,2013,5350,False,User Upload,-150.0,-2.727272727272722,5490.0,5630.0,moderate_decline,Low
+Snow Leopard,Panthera uncia,Mammal,China,VU,2014,5200,False,User Upload,-150.0,-2.8037383177570097,5350.0,5490.0,moderate_decline,Low
+Snow Leopard,Panthera uncia,Mammal,China,VU,2015,5050,False,User Upload,-150.0,-2.884615384615385,5200.0,5344.0,moderate_decline,Low
+Snow Leopard,Panthera uncia,Mammal,China,VU,2016,4900,False,User Upload,-150.0,-2.970297029702973,5050.0,5200.0,moderate_decline,Low
+Snow Leopard,Panthera uncia,Mammal,China,VU,2017,4700,False,User Upload,-200.0,-4.081632653061229,4883.333333333333,5040.0,moderate_decline,Low
+Snow Leopard,Panthera uncia,Mammal,China,VU,2018,4500,False,User Upload,-200.0,-4.255319148936165,4700.0,4870.0,moderate_decline,Low
+Snow Leopard,Panthera uncia,Mammal,China,VU,2019,4380,False,User Upload,-120.0,-2.6666666666666616,4526.666666666667,4706.0,moderate_decline,Low
+Snow Leopard,Panthera uncia,Mammal,China,VU,2020,4200,False,User Upload,-180.0,-4.109589041095896,4360.0,4536.0,moderate_decline,Low
+Snow Leopard,Panthera uncia,Mammal,China,VU,2021,4050,False,User Upload,-150.0,-3.57142857142857,4210.0,4366.0,moderate_decline,Low
+Snow Leopard,Panthera uncia,Mammal,China,VU,2022,3920,False,User Upload,-130.0,-3.209876543209877,4056.6666666666665,4210.0,moderate_decline,Low
+Snow Leopard,Panthera uncia,Mammal,China,VU,2023,3850,False,User Upload,-70.0,-1.7857142857142905,3940.0,4080.0,stable,Low
+Snow Leopard,Panthera uncia,Mammal,China,VU,2024,3780,False,User Upload,-70.0,-1.8181818181818188,3850.0,3960.0,stable,Low
