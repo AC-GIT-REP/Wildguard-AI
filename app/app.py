@@ -2456,34 +2456,26 @@ if st.session_state.main_view == "🗺️ Global Map":
     
     # Header
     st.markdown("""
-    <div style="text-align: center; margin-bottom: 48px; padding: 32px 0;">
-        <h1 style="
-            font-family: 'Outfit', sans-serif; 
-            font-size: 3.2rem; 
-            background: linear-gradient(135deg, #00d4ff 0%, #00ff88 30%, #ffd700 60%, #ff6b6b 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin: 0;
-            letter-spacing: 2px;
-        ">
-            Global Wildlife Conservation
-        </h1>
-        <p style="color: rgba(255,255,255,0.85); font-size: 1.35rem; margin-top: 20px; font-weight: 400; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.7;">
-            Interactive visualization showing the conservation status of endangered species across the world
-        </p>
-        <div style="display: flex; justify-content: center; gap: 32px; margin-top: 28px; flex-wrap: wrap;">
-            <span style="display: flex; align-items: center; gap: 10px; font-size: 1rem; color: rgba(255,255,255,0.85);">
-                <span style="width: 14px; height: 14px; background: #ff4757; border-radius: 50%; box-shadow: 0 0 8px #ff4757;"></span> Critical Risk
-            </span>
-            <span style="display: flex; align-items: center; gap: 10px; font-size: 1rem; color: rgba(255,255,255,0.85);">
-                <span style="width: 14px; height: 14px; background: #ffa502; border-radius: 50%; box-shadow: 0 0 8px #ffa502;"></span> Moderate Risk
-            </span>
-            <span style="display: flex; align-items: center; gap: 10px; font-size: 1rem; color: rgba(255,255,255,0.85);">
-                <span style="width: 14px; height: 14px; background: #2ed573; border-radius: 50%; box-shadow: 0 0 8px #2ed573;"></span> Low Risk
-            </span>
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
+<div style="text-align: center; margin-bottom: 48px; padding: 32px 0;">
+<h1 style="font-family: 'Outfit', sans-serif; font-size: 3.2rem; background: linear-gradient(135deg, #00d4ff 0%, #00ff88 30%, #ffd700 60%, #ff6b6b 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin: 0; letter-spacing: 2px;">
+Global Wildlife Conservation
+</h1>
+<p style="color: rgba(255,255,255,0.85); font-size: 1.35rem; margin-top: 20px; font-weight: 400; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.7;">
+Interactive visualization showing the conservation status of endangered species across the world
+</p>
+<div style="display: flex; justify-content: center; gap: 32px; margin-top: 28px; flex-wrap: wrap;">
+<span style="display: flex; align-items: center; gap: 10px; font-size: 1rem; color: rgba(255,255,255,0.85);">
+<span style="width: 14px; height: 14px; background: #ff4757; border-radius: 50%; box-shadow: 0 0 8px #ff4757;"></span> Critical Risk
+</span>
+<span style="display: flex; align-items: center; gap: 10px; font-size: 1rem; color: rgba(255,255,255,0.85);">
+<span style="width: 14px; height: 14px; background: #ffa502; border-radius: 50%; box-shadow: 0 0 8px #ffa502;"></span> Moderate Risk
+</span>
+<span style="display: flex; align-items: center; gap: 10px; font-size: 1rem; color: rgba(255,255,255,0.85);">
+<span style="width: 14px; height: 14px; background: #2ed573; border-radius: 50%; box-shadow: 0 0 8px #2ed573;"></span> Low Risk
+</span>
+</div>
+</div>
+""", unsafe_allow_html=True)
     
     # Build map with premium interactive globe visualization
     fig_map = go.Figure()
@@ -2596,45 +2588,45 @@ if st.session_state.main_view == "🗺️ Global Map":
     
     # Interaction hint
     st.markdown("""
-    <div style="text-align: center; margin: -10px 0 20px 0;">
-        <span style="color: rgba(255,255,255,0.45); font-size: 0.85rem; font-style: italic;">
-            🖱️ Click &amp; drag to rotate the globe • Scroll to zoom in/out
-        </span>
-    </div>
-    """, unsafe_allow_html=True)
+<div style="text-align: center; margin: -10px 0 20px 0;">
+<span style="color: rgba(255,255,255,0.45); font-size: 0.85rem; font-style: italic;">
+🖱️ Click &amp; drag to rotate the globe • Scroll to zoom in/out
+</span>
+</div>
+""", unsafe_allow_html=True)
     
     # Region buttons
     st.markdown("""
-    <div style="margin: 32px 0 20px 0;">
-        <h3 style="background: linear-gradient(135deg, #00d4ff, #00ff88); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin: 0 0 12px 0; font-size: 1.4rem; font-weight: 700;">
-            🔍 Click a Region to Explore Species
-        </h3>
-        <p style="color: rgba(255,255,255,0.7); margin: 0; font-size: 1rem;">Select a region, then click any species to view its detailed conservation dashboard</p>
-    </div>
-    
-    <style>
-    .region-explore-btn button {
-        background: rgba(15, 23, 42, 0.4) !important;
-        border: 1px solid rgba(255, 255, 255, 0.1) !important;
-        color: #94a3b8 !important;
-        font-size: 0.75rem !important;
-        font-weight: 700 !important;
-        letter-spacing: 1px !important;
-        padding: 4px 0 !important;
-        min-height: 32px !important;
-        border-radius: 8px !important;
-        margin-top: -10px !important;
-        margin-bottom: 16px !important;
-        transition: all 0.3s ease !important;
-    }
-    .region-explore-btn button:hover {
-        background: rgba(0, 212, 255, 0.15) !important;
-        border-color: #00d4ff !important;
-        color: #00d4ff !important;
-        box-shadow: 0 0 12px rgba(0, 212, 255, 0.3) !important;
-    }
-    </style>
-    """, unsafe_allow_html=True)
+<div style="margin: 32px 0 20px 0;">
+<h3 style="background: linear-gradient(135deg, #00d4ff, #00ff88); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin: 0 0 12px 0; font-size: 1.4rem; font-weight: 700;">
+🔍 Click a Region to Explore Species
+</h3>
+<p style="color: rgba(255,255,255,0.7); margin: 0; font-size: 1rem;">Select a region, then click any species to view its detailed conservation dashboard</p>
+</div>
+
+<style>
+.region-explore-btn button {
+    background: rgba(15, 23, 42, 0.4) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: #94a3b8 !important;
+    font-size: 0.75rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 1px !important;
+    padding: 4px 0 !important;
+    min-height: 32px !important;
+    border-radius: 8px !important;
+    margin-top: -10px !important;
+    margin-bottom: 16px !important;
+    transition: all 0.3s ease !important;
+}
+.region-explore-btn button:hover {
+    background: rgba(0, 212, 255, 0.15) !important;
+    border-color: #00d4ff !important;
+    color: #00d4ff !important;
+    box-shadow: 0 0 12px rgba(0, 212, 255, 0.3) !important;
+}
+</style>
+""", unsafe_allow_html=True)
     
     flag_map = {
         'Africa': '🌍',
@@ -2658,60 +2650,87 @@ if st.session_state.main_view == "🗺️ Global Map":
                     urgency = row.get('avg_urgency', 0.0)
                     flag_emoji = flag_map.get(row['region'], '🌐')
                     
+                    uid = f"{i}_{j}"
                     st.markdown(f"""
+<div class="elegant-card-{uid}" style="
+    background: linear-gradient(145deg, rgba(15, 23, 42, 0.8) 0%, rgba(2, 6, 23, 0.95) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-top: 3px solid {color_hex};
+    border-radius: 16px;
+    padding: 20px;
+    height: 110px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+">
+    <div style="position: absolute; top: -30px; right: -30px; width: 100px; height: 100px; background: {color_hex}; filter: blur(40px); opacity: 0.3; border-radius: 50%;"></div>
+    <div style="z-index: 1;">
+        <span style="font-size: 1.5rem; margin-right: 8px;">{flag_emoji}</span>
+        <span style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; font-weight: 700; color: #ffffff; letter-spacing: 0.5px;">{row['region']}</span>
+    </div>
+    <div style="display: flex; justify-content: space-between; align-items: flex-end; z-index: 1;">
+        <div>
+            <span style="display: block; font-size: 0.7rem; color: #94a3b8; text-transform: uppercase; font-weight: 600; margin-bottom: 2px;">Species</span>
+            <span style="font-size: 1.1rem; font-weight: 800; color: #38bdf8;">{row['species_count']}</span>
+        </div>
+        <div style="text-align: right;">
+            <span style="display: block; font-size: 0.7rem; color: #94a3b8; text-transform: uppercase; font-weight: 600; margin-bottom: 2px;">Urgency</span>
+            <span style="font-size: 1.1rem; font-weight: 800; color: {color_hex};">{urgency:.1f}/10</span>
+        </div>
+    </div>
+</div>
+
 <style>
-button[title="View {row['region']}"] {{
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
-    margin: 0 auto !important;
-    padding: 0 !important;
-    min-height: 0 !important;
-    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+/* 1. Ensure the column itself is the relative boundary for absolute positioning */
+div[data-testid="column"]:has(.elegant-card-{uid}) {{
+    position: relative !important;
+}}
+
+/* 2. Stretch the button to perfectly overlay the elegant card inside the column */
+div[data-testid="column"]:has(.elegant-card-{uid}) div[data-testid="stButton"] button {{
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    opacity: 0 !important; 
     z-index: 10 !important;
-}}
-button[title="View {row['region']}"] p {{
-    font-size: 3.5rem !important;
-    filter: drop-shadow(0 5px 15px {color_hex}80) !important;
+    cursor: pointer !important;
     margin: 0 !important;
-    line-height: 1.2 !important;
+    padding: 0 !important;
 }}
-button[title="View {row['region']}"]:hover {{
-    transform: scale(1.2) translateY(-8px) !important;
+
+/* 3. Hide Streamlit's phantom layout wrappers for the button to avoid extra spacing */
+div[data-testid="column"]:has(.elegant-card-{uid}) div.element-container:has(div[data-testid="stButton"]) {{
+    position: absolute !important;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+    z-index: 10;
 }}
-button[title="View {row['region']}"]:focus:not(:active) {{
-    background: transparent !important;
-    border: none !important;
-    color: inherit !important;
+
+/* 4. Ultra-premium hover effect triggered dynamically when hovering on this column */
+div[data-testid="column"]:has(.elegant-card-{uid}):hover .elegant-card-{uid} {{
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px {color_hex}40;
+    border-color: {color_hex};
 }}
 </style>
 """, unsafe_allow_html=True)
                     
-                    if st.button(flag_emoji, key=f"region_flag_{row['region']}", help=f"View {row['region']}"):
+                    if st.button("View", key=f"region_flag_{row['region']}", use_container_width=True):
                         if st.session_state.get('selected_map_region') == row['region']:
                             st.session_state.selected_map_region = None
                         else:
                             st.session_state.selected_map_region = row['region']
                         st.rerun()
-
-                    st.markdown(f"""
-<div style="background: radial-gradient(120% 120% at 50% 0%, rgba(30, 41, 59, 0.9) 0%, rgba(2, 6, 23, 0.95) 100%); border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.05); border-top: 2px solid {color_hex}; padding: 20px 16px; text-align: center; margin-top: -60px; box-shadow: 0 10px 25px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.05); position: relative; overflow: hidden; z-index: 1; pointer-events: none;">
-<div style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 80px; height: 80px; background: {color_hex}; filter: blur(35px); opacity: 0.3; border-radius: 50%;"></div>
-<div style="margin-top: 40px;">
-<h4 style="color: #f1f5f9; margin: 0 0 16px 0; font-family: 'Outfit', sans-serif; font-size: 1.15rem; font-weight: 800; letter-spacing: 0.5px;">{row['region']}</h4>
-<div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 12px; margin-bottom: 4px;">
-<div style="text-align: left;">
-<span style="display: block; color: rgba(255,255,255,0.4); font-size: 0.65rem; text-transform: uppercase;">Species</span>
-<span style="color: #38bdf8; font-weight: 800; font-size: 1rem;">{row['species_count']}</span>
-</div>
-<div style="text-align: right;">
-<span style="display: block; color: rgba(255,255,255,0.4); font-size: 0.65rem; text-transform: uppercase;">Urgency</span>
-<span style="color: {color_hex}; font-weight: 800; font-size: 1rem;">{urgency:.1f}</span>
-</div>
-</div>
-</div>
-</div>
-""", unsafe_allow_html=True)
     
     # Display species in selected region
     if st.session_state.selected_map_region:
@@ -2730,15 +2749,16 @@ button[title="View {row['region']}"]:focus:not(:active) {{
 div.element-container:has(.species-view-anchor) ~ div.element-container {
     animation: popDownSequence 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
 }
+/* Stagger the inner species cards */
 </style>
 """, unsafe_allow_html=True)
         
         st.markdown(f"""
 <div style="background: linear-gradient(145deg, rgba(0, 212, 255, 0.12) 0%, rgba(0, 255, 136, 0.08) 100%); border: 2px solid rgba(0, 255, 136, 0.4); border-radius: 24px; padding: 28px; margin-top: 24px;">
-    <h3 style="background: linear-gradient(135deg, #00d4ff, #00ff88); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin: 0 0 8px 0; font-size: 1.5rem; font-weight: 700;">
-        🦁 Species in {selected_region}
-    </h3>
-    <p style="color: rgba(255,255,255,0.7); margin: 0 0 20px 0; font-size: 1rem;">Click any species to view its conservation dashboard</p>
+<h3 style="background: linear-gradient(135deg, #00d4ff, #00ff88); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin: 0 0 8px 0; font-size: 1.5rem; font-weight: 700;">
+🦁 Species in {selected_region}
+</h3>
+<p style="color: rgba(255,255,255,0.7); margin: 0 0 20px 0; font-size: 1rem;">Click any species to view its conservation dashboard</p>
 </div>
 """, unsafe_allow_html=True)
         
