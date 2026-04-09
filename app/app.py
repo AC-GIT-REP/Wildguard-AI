@@ -2636,12 +2636,12 @@ if st.session_state.main_view == "🗺️ Global Map":
     </style>
     """, unsafe_allow_html=True)
     
-    region_flags = {
-        'Africa': '🇿🇦',
+    flag_map = {
+        'Africa': '🌍',
         'India': '🇮🇳',
         'China': '🇨🇳',
         'Usa': '🇺🇸',
-        'North America': '🇨🇦',
+        'North America': '🌎',
         'Mexico': '🇲🇽',
         'Global Oceans': '🌊',
         'Global': '🌐'
@@ -2656,75 +2656,99 @@ if st.session_state.main_view == "🗺️ Global Map":
                 with col:
                     color_hex = row.get('color', '#00d4ff')
                     urgency = row.get('avg_urgency', 0.0)
-                    flag = region_flags.get(row['region'], '🌍')
+                    flag_emoji = flag_map.get(row['region'], '🌐')
                     
+                    st.markdown(f"""
+                    <style>
+                    button[title="View {row['region']}"] {{
+                        background: transparent !important;
+                        border: none !important;
+                        box-shadow: none !important;
+                        margin: 0 auto !important;
+                        padding: 0 !important;
+                        min-height: 0 !important;
+                        transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+                        z-index: 10 !important;
+                    }}
+                    button[title="View {row['region']}"] p {{
+                        font-size: 3.5rem !important;
+                        filter: drop-shadow(0 5px 15px {color_hex}80) !important;
+                        margin: 0 !important;
+                        line-height: 1.2 !important;
+                    }}
+                    button[title="View {row['region']}"]:hover {{
+                        transform: scale(1.2) translateY(-8px) !important;
+                    }}
+                    button[title="View {row['region']}"]:focus:not(:active) {{
+                        background: transparent !important;
+                        border: none !important;
+                        color: inherit !important;
+                    }}
+                    </style>
+                    """, unsafe_allow_html=True)
+                    
+                    if st.button(flag_emoji, key=f"region_flag_{row['region']}", help=f"View {row['region']}"):
+                        if st.session_state.get('selected_map_region') == row['region']:
+                            st.session_state.selected_map_region = None
+                        else:
+                            st.session_state.selected_map_region = row['region']
+                        st.rerun()
+
                     st.markdown(f"""
                     <div style="
                         background: radial-gradient(120% 120% at 50% 0%, rgba(30, 41, 59, 0.9) 0%, rgba(2, 6, 23, 0.95) 100%);
-                        border-radius: 16px;
-                        border: 1px solid rgba(255, 255, 255, 0.05);
-                        border-top: 2px solid {color_hex};
-                        padding: 20px 16px;
-                        text-align: center;
+                        border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.05); border-top: 2px solid {color_hex};
+                        padding: 20px 16px; text-align: center; margin-top: -60px; 
                         box-shadow: 0 10px 25px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.05);
-                        position: relative;
-                        overflow: hidden;
+                        position: relative; overflow: hidden; z-index: 1; pointer-events: none;
                     ">
-                        <div style="
-                            position: absolute; top: -30px; left: 50%; transform: translateX(-50%);
-                            width: 60px; height: 60px; background: {color_hex}; 
-                            filter: blur(35px); opacity: 0.25; border-radius: 50%;
-                        "></div>
-                        <div style="font-size: 2.2rem; margin-bottom: 2px; filter: drop-shadow(0 0 10px {color_hex}60);">{flag}</div>
-                        <h4 style="color: #f1f5f9; margin: 0 0 16px 0; font-family: 'Outfit', sans-serif; font-size: 1.15rem; font-weight: 800; letter-spacing: 0.5px;">
-                            {row['region']}
-                        </h4>
-                        <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 12px; margin-bottom: 4px;">
-                            <div style="text-align: left;">
-                                <span style="display: block; color: rgba(255,255,255,0.4); font-size: 0.65rem; text-transform: uppercase; font-weight: 800; letter-spacing: 0.5px;">Species</span>
-                                <span style="color: #38bdf8; font-weight: 800; font-size: 1rem;">{row['species_count']}</span>
-                            </div>
-                            <div style="text-align: right;">
-                                <span style="display: block; color: rgba(255,255,255,0.4); font-size: 0.65rem; text-transform: uppercase; font-weight: 800; letter-spacing: 0.5px;">Urgency</span>
-                                <span style="color: {color_hex}; font-weight: 800; font-size: 1rem;">{urgency:.1f}</span>
+                        <div style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 80px; height: 80px; background: {color_hex}; filter: blur(35px); opacity: 0.3; border-radius: 50%;"></div>
+                        
+                        <div style="margin-top: 40px;">
+                            <h4 style="color: #f1f5f9; margin: 0 0 16px 0; font-family: 'Outfit', sans-serif; font-size: 1.15rem; font-weight: 800; letter-spacing: 0.5px;">
+                                {row['region']}
+                            </h4>
+                            <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 12px; margin-bottom: 4px;">
+                                <div style="text-align: left;">
+                                    <span style="display: block; color: rgba(255,255,255,0.4); font-size: 0.65rem; text-transform: uppercase;">Species</span>
+                                    <span style="color: #38bdf8; font-weight: 800; font-size: 1rem;">{row['species_count']}</span>
+                                </div>
+                                <div style="text-align: right;">
+                                    <span style="display: block; color: rgba(255,255,255,0.4); font-size: 0.65rem; text-transform: uppercase;">Urgency</span>
+                                    <span style="color: {color_hex}; font-weight: 800; font-size: 1rem;">{urgency:.1f}</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                     """, unsafe_allow_html=True)
-                    
-                    st.markdown('<div class="region-explore-btn">', unsafe_allow_html=True)
-                    if st.button("EXPLORE", key=f"region_btn_{row['region']}", use_container_width=True):
-                        st.session_state.selected_map_region = row['region']
-                        st.rerun()
-                    st.markdown('</div>', unsafe_allow_html=True)
     
     # Display species in selected region
     if st.session_state.selected_map_region:
         selected_region = st.session_state.selected_map_region
         region_species = all_species_risk_df[all_species_risk_df['region'] == selected_region]
         
-        st.markdown(f"""
+        # Animate the appearance of the entire species section
+        st.markdown("""
+        <div class="species-view-anchor" style="display: none;"></div>
         <style>
-        @keyframes dropdownPop {{
-            0% {{ opacity: 0; transform: translateY(-30px) scale(0.98); }}
-            100% {{ opacity: 1; transform: translateY(0) scale(1); }}
-        }}
-        /* Target the container of this markdown block */
-        .element-container:has(.species-header-anim) {{
-            animation: dropdownPop 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-        }}
-        /* Target all subsequent containers (the species grid, controls, and tooltip) */
-        .element-container:has(.species-header-anim) ~ .element-container {{
-            animation: dropdownPop 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-            opacity: 0; /* Prevents flashing before animation starts */
-        }}
+        @keyframes popDownSequence {
+            0% { opacity: 0; transform: translateY(-30px) scale(0.98); filter: blur(10px); }
+            100% { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
+        }
+        /* Target siblings of the container holding the anchor */
+        div.element-container:has(.species-view-anchor) ~ div.element-container {
+            animation: popDownSequence 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+        }
+        /* Stagger the inner species cards */
         </style>
+        """, unsafe_allow_html=True)
         
-        <div class="species-header-anim" style="background: linear-gradient(145deg, rgba(0, 212, 255, 0.12) 0%, rgba(0, 255, 136, 0.08) 100%); border: 2px solid rgba(0, 255, 136, 0.4); border-radius: 24px; padding: 28px; margin-top: 24px; margin-bottom: 20px;">
+        st.markdown(f"""
+        <div style="background: linear-gradient(145deg, rgba(0, 212, 255, 0.12) 0%, rgba(0, 255, 136, 0.08) 100%); border: 2px solid rgba(0, 255, 136, 0.4); border-radius: 24px; padding: 28px; margin-top: 24px;">
             <h3 style="background: linear-gradient(135deg, #00d4ff, #00ff88); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin: 0 0 8px 0; font-size: 1.5rem; font-weight: 700;">
                 🦁 Species in {selected_region}
             </h3>
-            <p style="color: rgba(255,255,255,0.7); margin: 0 0 4px 0; font-size: 1rem;">Click any species to view its conservation dashboard</p>
+            <p style="color: rgba(255,255,255,0.7); margin: 0 0 20px 0; font-size: 1rem;">Click any species to view its conservation dashboard</p>
         </div>
         """, unsafe_allow_html=True)
         
