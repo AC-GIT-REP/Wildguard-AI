@@ -2,100 +2,127 @@
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io)
-[![Machine Learning](https://img.shields.io/badge/XGBoost_|_Prophet-Passed-green.svg)](https://xgboost.ai)
+[![Machine Learning](https://img.shields.io/badge/XGBoost-Risk_Classification-green.svg)](https://xgboost.ai)
 [![Generative AI](https://img.shields.io/badge/Groq-Llama_3.1-black.svg)](https://groq.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**WildGuard AI** is a predictive, machine-learning-powered conservation intelligence platform. Designed bridging the gap between raw ecological data and real-time conservation efforts, it utilizes multi-model ML architectures (XGBoost, LSTM, Facebook Prophet) to forecast wildlife population trends, categorize extinction risks, and generate automated mitigation strategies before populations hit critical points of no return.
+**WildGuard AI** is a predictive, machine-learning-powered conservation intelligence platform. It bridges the gap between raw ecological data and real-time conservation action by using multi-model ML architectures (XGBoost, Random Forest) to forecast wildlife population trends, classify species extinction risk levels, and generate automated mitigation strategies — all through a premium, cinematic dashboard experience.
 
 ---
 
 ## ✨ Core Features
 
-*   **📈 Predictive Population Forecasting:** Utilizes Facebook Prophet for time-series forecasting, projecting species population trajectories up to 2030 based on historical census data.
-*   **🚨 Multi-Class Threat Assessment:** Employs an XGBoost classifier to assign an urgency tier (High, Medium, Low Risk) utilizing complex, non-linear relationships between habitat metrics and historical poaching records.
-*   **📡 Threat Radar & Geospatial Mapping:** Displays global risk vectors and poaching hotspots via interactive `PyDeck` maps.
-*   **🌿 'Ask Prakriti' AI Assistant:** A globally persistent, floating AI chatbot integrated directly via the Groq API (Llama 3.1 8B), providing 24/7 rule-based and generative wildlife conservation guidance.
-*   **🌍 Guardian Community:** A gamified, citizen-science module allowing users to submit verifiable field photos to a decentralized leaderboard, actively crowdsourcing conservation awareness.
-*   **📑 Automated PDF Reporting:** A built-in document generation engine using `fpdf2` and `matplotlib`, instantly converting ML metrics into professional, policy-ready PDF reports.
+*   **📈 Population Trend Analysis:** Random Forest model trained on engineered wildlife census data to detect population trends (Increasing, Stable, Declining, Critical) across endangered species.
+*   **🚨 Multi-Class Risk Classification:** XGBoost classifier assigning urgency tiers (High, Medium, Low Risk) using complex, non-linear relationships between habitat loss metrics, poaching records, and population volatility.
+*   **📡 Threat Radar & Geospatial Mapping:** Interactive `PyDeck` globe displaying global poaching hotspots and risk vectors in real-time.
+*   **🌿 'Ask Prakriti' AI Assistant:** A globally persistent, floating AI chatbot powered by the Groq API (Llama 3.1 8B), providing rule-based and generative wildlife conservation guidance.
+*   **🌍 Guardian Community:** A gamified citizen-science module where users submit field observations to a community leaderboard backed by MongoDB.
+*   **📑 Automated PDF Reporting:** Built-in document generation engine using `fpdf2`, converting ML metrics and analysis into professional, policy-ready PDF reports.
+*   **🔐 User Authentication:** Secure login/registration system with password hashing (PBKDF2-SHA256) and MongoDB storage.
 
 ## 🛠️ Technology Stack
 
 **Frontend & Architecture**
-*   [Streamlit](https://streamlit.io/) - Core application framework and interactive dashboarding.
-*   [PyDeck](https://deckgl.readthedocs.io/) & Plotly - Geospatial intelligence and complex charting.
+*   [Streamlit](https://streamlit.io/) — Core application framework with custom HTML/CSS cinematic UI.
+*   [PyDeck](https://deckgl.readthedocs.io/) & [Plotly](https://plotly.com/) — Geospatial intelligence and interactive charting.
 
 **Machine Learning Engine**
-*   [XGBoost](https://xgboost.ai/) - Gradient-boosted decision trees for risk classification.
-*   [Facebook Prophet](https://facebook.github.io/prophet/) - Time-series prediction for population decay/recovery.
-*   [Scikit-Learn](https://scikit-learn.org/) / Pandas / Numpy - Data engineering and preprocessing pipelines.
-*   [Keras/TensorFlow](https://www.tensorflow.org/) - LSTM-based temporal anomaly detection.
+*   [XGBoost](https://xgboost.ai/) — Gradient-boosted decision trees for risk classification.
+*   [Scikit-Learn](https://scikit-learn.org/) — Random Forest for population trend detection + preprocessing pipelines.
+*   [Pandas](https://pandas.pydata.org/) / [NumPy](https://numpy.org/) — Data engineering and feature extraction.
 
-**External Integrations**
-*   [Groq API](https://groq.com/) - Lightning-fast LLM inference powering the chatbot fallback mechanics.
+**Backend & Integrations**
+*   [MongoDB](https://www.mongodb.com/) (via PyMongo) — User authentication & Guardian Community leaderboard storage.
+*   [Groq API](https://groq.com/) — Lightning-fast LLM inference powering the Prakriti chatbot.
+*   [FPDF2](https://py-pdf.github.io/fpdf2/) — Automated PDF report generation.
 
 ## ⚙️ Installation & Usage
 
 ### Prerequisites
-Make sure you have Python 3.10+ installed on your local environment. 
+- Python 3.10+ installed
+- A [Groq API key](https://console.groq.com/) (free tier available)
+- A [MongoDB Atlas](https://www.mongodb.com/atlas) connection string (free tier available)
 
 ### Setup
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/wildguard-ai.git
-   cd wildguard-ai
+   git clone https://github.com/AC-GIT-REP/wildware-ai.git
+   cd wildware-ai
    ```
 
 2. **Install dependencies**
-   We recommend setting up a virtual environment before installing the requirements.
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Configure API Keys**
-   To enable the 'Ask Prakriti' chatbot, you will need to add your personal `GROQ_API_KEY` to the `_chatbot_respond()` function inside `app/app.py`.
+3. **Configure environment variables**
+   Create a `.env` file in the project root:
+   ```env
+   GROQ_API_KEY=your_groq_api_key_here
+   MONGO_URI=your_mongodb_connection_string_here
+   ```
 
 4. **Launch the application**
    ```bash
    streamlit run app/app.py
    ```
-   *(Alternatively, Windows users can simply double-click `run_dashboard.bat`)*
 
 ## 📂 Project Structure
 
 ```text
 WildGuard-AI/
 ├── app/
-│   ├── app.py                      # Main Streamlit application and UI routing
-│   ├── inference_utils.py          # Class definitions for ML model loading and inference
-│   └── data_validator.py           # Integrity checks for the analytical pipelines
-├── data/                           
-│   ├── raw_wildlife_data.csv       # Baseline species metrics & census records
-│   ├── engineered_wildlife_data.csv# Preprocessed final dataset used by the dashboard
-│   ├── feature_engineering.py      # Core logic for extracting training features
-│   └── preprocess_data.py          # Scripts to handle raw data cleaning and sorting
+│   ├── app.py                       # Main Streamlit application (UI + logic)
+│   ├── inference_utils.py           # ML model loading and inference engine
+│   ├── data_validator.py            # Data integrity checks for analytical pipelines
+│   ├── mongodb_manager.py           # MongoDB connection, auth, and leaderboard logic
+│   └── assets/                      # Wildlife imagery for the landing page gallery
+├── data/
+│   ├── raw_wildlife_data.csv        # Baseline species metrics & census records
+│   ├── cleaned_wildlife_data.csv    # Cleaned dataset after preprocessing
+│   ├── engineered_wildlife_data.csv # Final feature-engineered dataset
+│   ├── classification_dataset.csv   # XGBoost training dataset
+│   ├── trend_dataset.csv            # Random Forest training dataset
+│   ├── forecast_dataset.csv         # Population forecasting dataset
+│   ├── poaching_incidents.csv       # Global poaching incident records
+│   ├── demo_upload.csv              # Sample file for the upload demo feature
+│   ├── guardian_leaderboard.json    # Community leaderboard data
+│   ├── feature_engineering.py       # Feature extraction logic
+│   ├── preprocess_data.py           # Raw data cleaning scripts
+│   └── generate_poaching_data.py    # Synthetic poaching data generator
 ├── models/
-│   ├── rf_trend_model.pkl          # Trained Random Forest serialization
-│   ├── xgboost_risk_model.json     # Trained XGBoost serialization
-│   └── *_training.py               # Independent model training configuration scripts
-├── plots/ & results/               # Artifacts generated during offline model evaluation
-├── requirements.txt                # Python package dependencies
-└── README.md                       # Project documentation
+│   ├── rf_trend_model.pkl           # Trained Random Forest (trend detection)
+│   ├── xgboost_risk_model.json      # Trained XGBoost (risk classification)
+│   ├── poaching_threat_model.pkl    # Trained poaching threat model
+│   ├── xgboost_metrics.json         # XGBoost evaluation metrics
+│   ├── train_rf_trend.py            # RF training script
+│   ├── xgboost_risk_classification.py  # XGBoost training script
+│   ├── prophet_forecasting.py       # Prophet forecasting script (offline)
+│   ├── lstm_trend_detection.py      # LSTM training script (offline)
+│   └── model_comparison.py          # Model comparison and evaluation
+├── plots/                           # Pre-generated model evaluation plots
+├── results/                         # Comparison tables and offline results
+├── .env                             # API keys (not committed to Git)
+├── .gitignore
+├── requirements.txt
+└── README.md
 ```
 
 ## 🧠 The ML Pipeline
 
-WildGuard AI isn't simply a visualization wrapper — the data is heavily engineered before it reaches the frontend:
-1. **Data Ingestion:** Structured IUCN-style metrics are parsed.
-2. **Feature Engineering:** Calculation of compound variables like `population_volatility`, `decline_rate`, and `normalized_historical_peak` using Pandas.
-3. **Training & Inference:** 
-   - The dashboard invokes pre-trained XGBoost weights (`.json`) for instant risk-level inference.
-   - Prophet modeling operates dynamically *at runtime*, recalculating confidence intervals and seasonality based on real-time slice inputs.
+WildGuard AI is not just a visualization wrapper — the data goes through a rigorous engineering pipeline:
+
+1. **Data Ingestion:** IUCN-style wildlife metrics and census records are parsed and validated.
+2. **Feature Engineering:** Compound variables like `population_volatility`, `decline_rate`, `habitat_fragmentation_index`, and `normalized_historical_peak` are computed.
+3. **Model Training (Offline):**
+   - Random Forest trained on `trend_dataset.csv` for population trend classification.
+   - XGBoost trained on `classification_dataset.csv` for multi-class risk level prediction.
+4. **Runtime Inference:** The dashboard loads pre-trained model weights (`.pkl`, `.json`) for instant predictions on new data — no retraining required.
 
 ## 🤝 Contributing
 
-Contributions are highly welcome. If you find a bug or have an idea for a feature (such as implementing the planned OpenCV backend for the Guardian Community photo-verification), please:
+Contributions are welcome! To contribute:
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
@@ -104,4 +131,4 @@ Contributions are highly welcome. If you find a bug or have an idea for a featur
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information. This system was originally developed as an academic Final Year Project.
+Distributed under the MIT License. See `LICENSE` for more information.
