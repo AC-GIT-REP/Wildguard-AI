@@ -690,6 +690,7 @@ header[data-testid="stHeader"] { display: none !important; }
 .stButton>button:hover { transform: translateY(-3px) scale(1.02) !important; box-shadow: 0 10px 25px rgba(255, 215, 0, 0.5) !important; }
 .stTextInput input { background: rgba(255, 255, 255, 0.05) !important; border: 2px solid rgba(255, 215, 0, 0.4) !important; color: #fff !important; text-align: center !important; height: 50px !important; font-size: 1.1rem !important; font-weight: 600 !important; }
 .stTextInput input::placeholder { color: rgba(255, 215, 0, 0.3) !important; }
+div[data-testid="InputInstructions"] { display: none !important; }
 </style>
 <div class="landing-bg"><div class="orb orb-gold" style="width: 600px; height: 600px; top: -10%; left: -5%;"></div><div class="orb orb-moss" style="width: 500px; height: 500px; bottom: -5%; right: -5%;"></div></div>
 <div class="landing-hero"><div class="shield-icon">🔱</div><h1 class="landing-title">WildGuard AI</h1><p class="landing-subtitle">Imperial Conservation Grid</p></div>""", unsafe_allow_html=True)
