@@ -2636,6 +2636,17 @@ if st.session_state.main_view == "🗺️ Global Map":
     </style>
     """, unsafe_allow_html=True)
     
+    region_flags = {
+        'Africa': '🌍',
+        'India': '🇮🇳',
+        'China': '🇨🇳',
+        'Usa': '🇺🇸',
+        'North America': '🌎',
+        'Mexico': '🇲🇽',
+        'Global Oceans': '🌊',
+        'Global': '🗺️'
+    }
+    
     cols_per_row = 4
     for i in range(0, len(region_summary), cols_per_row):
         cols = st.columns(cols_per_row)
@@ -2645,6 +2656,7 @@ if st.session_state.main_view == "🗺️ Global Map":
                 with col:
                     color_hex = row.get('color', '#00d4ff')
                     urgency = row.get('avg_urgency', 0.0)
+                    flag_emoji = region_flags.get(row['region'], '🗺️')
                     
                     st.markdown(f"""
                     <div style="
@@ -2663,7 +2675,7 @@ if st.session_state.main_view == "🗺️ Global Map":
                             width: 60px; height: 60px; background: {color_hex}; 
                             filter: blur(35px); opacity: 0.25; border-radius: 50%;
                         "></div>
-                        <div style="font-size: 2rem; margin-bottom: 2px; filter: drop-shadow(0 0 10px {color_hex}60);">🌍</div>
+                        <div style="font-size: 2rem; margin-bottom: 2px; filter: drop-shadow(0 0 10px {color_hex}60);">{flag_emoji}</div>
                         <h4 style="color: #f1f5f9; margin: 0 0 16px 0; font-family: 'Outfit', sans-serif; font-size: 1.15rem; font-weight: 800; letter-spacing: 0.5px;">
                             {row['region']}
                         </h4>
@@ -2681,87 +2693,48 @@ if st.session_state.main_view == "🗺️ Global Map":
                     """, unsafe_allow_html=True)
                     
                     st.markdown('<div class="region-explore-btn">', unsafe_allow_html=True)
-                    if st.button("EXPLORE", key=f"region_btn_{row['region']}", use_container_width=True):
-                        st.session_state.selected_map_region = row['region']
-                        st.rerun()
+                    with st.popover("EXPLORE REGION", use_container_width=True):
+                        region_species = all_species_risk_df[all_species_risk_df['region'] == row['region']]
+                        st.markdown(f"#### {flag_emoji} Species in {row['region']}")
+                        
+                        risk_badge_colors = {'High': '#ff4757', 'Medium': '#ffa502', 'Low': '#2ed573'}
+                        
+                        for _, sp_row in region_species.iterrows():
+                            sp_img = get_animal_image(sp_row['species'])
+                            sp_risk = sp_row.get('risk_level', 'Medium')
+                            badge_color = risk_badge_colors.get(sp_risk, '#ffa502')
+                            
+                            st.markdown(f"""
+                            <div style="
+                                border-radius: 12px;
+                                overflow: hidden;
+                                border: 1px solid rgba(255,255,255,0.1);
+                                margin-bottom: 8px;
+                                position: relative;
+                            ">
+                                <img src="{sp_img}" style="width: 100%; height: 90px; object-fit: cover; display: block;">
+                                <div style="
+                                    position: absolute; top: 6px; right: 6px;
+                                    background: {badge_color}; color: #fff; font-size: 0.6rem; font-weight: 800;
+                                    padding: 2px 8px; border-radius: 6px; box-shadow: 0 2px 6px {badge_color}60;
+                                ">{sp_risk}</div>
+                                <div style="
+                                    position: absolute; bottom: 0; left: 0; right: 0;
+                                    background: linear-gradient(transparent, rgba(0,0,0,0.9));
+                                    padding: 16px 8px 6px;
+                                ">
+                                    <div style="color: #fff; font-size: 0.85rem; font-weight: 700;">{sp_row['species']}</div>
+                                </div>
+                            </div>
+                            """, unsafe_allow_html=True)
+                            
+                            # Standard streamlit button with a unique key
+                            if st.button(f"📊 View Dashboard", key=f"sp_dash_{sp_row['species']}_{row['region']}", use_container_width=True):
+                                st.session_state.selected_species = sp_row['species']
+                                st.session_state.main_view = "📊 Species Dashboard"
+                                st.rerun()
+                                
                     st.markdown('</div>', unsafe_allow_html=True)
-    
-    # Display species in selected region
-    if st.session_state.selected_map_region:
-        selected_region = st.session_state.selected_map_region
-        region_species = all_species_risk_df[all_species_risk_df['region'] == selected_region]
-        
-        st.markdown(f"""
-        <div style="background: linear-gradient(145deg, rgba(0, 212, 255, 0.12) 0%, rgba(0, 255, 136, 0.08) 100%); border: 2px solid rgba(0, 255, 136, 0.4); border-radius: 24px; padding: 28px; margin-top: 24px;">
-            <h3 style="background: linear-gradient(135deg, #00d4ff, #00ff88); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin: 0 0 8px 0; font-size: 1.5rem; font-weight: 700;">
-                🦁 Species in {selected_region}
-            </h3>
-            <p style="color: rgba(255,255,255,0.7); margin: 0 0 20px 0; font-size: 1rem;">Click any species to view its conservation dashboard</p>
-        </div>
-        """, unsafe_allow_html=True)
-        
-        # Species photo cards in grid
-        species_cols = st.columns(3)
-        risk_badge_colors = {'High': '#ff4757', 'Medium': '#ffa502', 'Low': '#2ed573'}
-        for i, (_, sp_row) in enumerate(region_species.iterrows()):
-            with species_cols[i % 3]:
-                sp_img = get_animal_image(sp_row['species'])
-                sp_risk = sp_row.get('risk_level', 'Medium')
-                sp_urgency = sp_row.get('urgency', 0)
-                badge_color = risk_badge_colors.get(sp_risk, '#ffa502')
-                
-                st.markdown(f"""
-                <div style="
-                    border-radius: 16px;
-                    overflow: hidden;
-                    border: 1px solid rgba(255,255,255,0.1);
-                    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-                    margin-bottom: 12px;
-                    background: rgba(255,255,255,0.03);
-                    transition: transform 0.2s ease, box-shadow 0.2s ease;
-                ">
-                    <div style="position: relative;">
-                        <img src="{sp_img}" style="
-                            width: 100%;
-                            height: 120px;
-                            object-fit: cover;
-                            display: block;
-                        " alt="{sp_row['species']}">
-                        <div style="
-                            position: absolute; top: 8px; right: 8px;
-                            background: {badge_color};
-                            color: #fff; font-size: 0.65rem; font-weight: 800;
-                            padding: 3px 8px; border-radius: 8px;
-                            text-transform: uppercase; letter-spacing: 0.5px;
-                            box-shadow: 0 2px 8px {badge_color}60;
-                        ">{sp_risk} Risk</div>
-                        <div style="
-                            position: absolute; bottom: 0; left: 0; right: 0;
-                            padding: 24px 12px 8px;
-                            background: linear-gradient(transparent, rgba(0,0,0,0.85));
-                        ">
-                            <div style="color: #fff; font-size: 0.9rem; font-weight: 700;">{sp_row['species']}</div>
-                            <div style="color: rgba(255,255,255,0.6); font-size: 0.7rem;">Urgency: {sp_urgency:.1f}/10</div>
-                        </div>
-                    </div>
-                </div>
-                """, unsafe_allow_html=True)
-                
-                if st.button(
-                    f"📊 View Dashboard",
-                    key=f"species_btn_{sp_row['species']}",
-                    width='stretch'
-                ):
-                    # Update session state to navigate to this species
-                    st.session_state.selected_species = sp_row['species']
-                    st.session_state.main_view = "📊 Species Dashboard"
-                    st.rerun()
-        
-        col1, col2, col3 = st.columns([1, 1, 1])
-        with col2:
-            if st.button("🔄 Clear Selection", key="clear_region", width='stretch'):
-                st.session_state.selected_map_region = None
-                st.rerun()
     
     # Info box
     st.markdown("""
