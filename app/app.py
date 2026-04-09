@@ -2466,7 +2466,7 @@ if st.session_state.main_view == "🗺️ Global Map":
             margin: 0;
             letter-spacing: 2px;
         ">
-            🌍 Global Wildlife Conservation Map
+            Global Wildlife Conservation
         </h1>
         <p style="color: rgba(255,255,255,0.85); font-size: 1.35rem; margin-top: 20px; font-weight: 400; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.7;">
             Interactive visualization showing the conservation status of endangered species across the world
