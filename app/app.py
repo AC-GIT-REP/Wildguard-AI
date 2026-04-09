@@ -11,7 +11,7 @@ import streamlit as st
 import plotly.graph_objects as go
 import plotly.express as px
 import pydeck as pdk
-import pickle
+import statsmodels.api as sm
 import numpy as np
 import pandas as pd
 from pathlib import Path
@@ -2286,6 +2286,7 @@ with st.sidebar:
     # Update session state if changed
     if main_view != st.session_state.main_view:
         st.session_state.main_view = main_view
+        st.rerun()
     
     st.markdown("---")
     
